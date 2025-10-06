@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Transportation Systems Engineering | IIT Bombay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <img src="assets/iitb-logo.png" alt="IIT Bombay Logo" class="iitb-logo" style="height: 36px; vertical-align: middle; margin-right: 10px;">
+                    <span>Transportation Systems Engineering</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Faculty <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="faculty-current.html">Current Faculty</a></li>
+                            <li><a href="faculty-past.html">Past Faculty</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Students <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="PhD.html">PhD</a></li>
+                            <li><a href="Mtech.html">Mtech</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Alumni <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="past-PhD.html">Past PhD</a></li>
+                            <li><a href="past-Mtech.html">Past Mtech</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="research.html" class="nav-link">Research</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Contact Information -->
+    <!-- <section class="section">
+        <div class="container">
+            <div class="card-grid fade-in">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Address</h3>
+                    <p>Transportation Systems Engineering<br>
+                       Department of Civil Engineering<br>
+                       Indian Institute of Technology Bombay<br>
+                       Powai, Mumbai - 400076<br>
+                       Maharashtra, India</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p><strong>Department Office:</strong><br>
+                       +91-22-2576-7301<br><br>
+                       <strong>Head of Department:</strong><br>
+                       +91-22-2576-7349<br><br>
+                       <strong>Fax:</strong><br>
+                       +91-22-2576-7302</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><strong>General Inquiries:</strong><br>
+                       hod@civil.iitb.ac.in<br><br>
+                       <strong>Admissions:</strong><br>
+                       admissions@civil.iitb.ac.in<br><br>
+                       <strong>Research Collaborations:</strong><br>
+                       research@civil.iitb.ac.in</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p><strong>Monday to Friday:</strong><br>
+                       9:00 AM - 5:00 PM<br><br>
+                       <strong>Saturday:</strong><br>
+                       9:00 AM - 1:00 PM<br><br>
+                       <strong>Sunday & Holidays:</strong><br>
+                       Closed</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Form -->
+    <!-- <section class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Send Us a Message</h2>
+                <p class="section-subtitle">We'd love to hear from you and will respond as soon as possible</p>
+            </div>
+
+            <div class="contact-form fade-in">
+                <form id="contactForm">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="organization">Organization/Institution</label>
+                        <input type="text" id="organization" name="organization">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inquiryType">Type of Inquiry *</label>
+                        <select id="inquiryType" name="inquiryType" required>
+                            <option value="">Please select...</option>
+                            <option value="admissions">Admissions Information</option>
+                            <option value="research">Research Collaboration</option>
+                            <option value="faculty">Faculty Information</option>
+                            <option value="events">Events & Conferences</option>
+                            <option value="alumni">Alumni Relations</option>
+                            <option value="industry">Industry Partnership</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="media">Media & Press</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Brief subject of your inquiry">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Please provide detailed information about your inquiry. Include specific questions or requirements to help us respond effectively."></textarea>
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem;">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent" style="font-size: 0.9rem;">I consent to the collection and processing of my personal data for the purpose of responding to my inquiry.</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Department Contacts -->
+    <!-- <section class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Key Contacts</h2>
+                <p class="section-subtitle">Direct contacts for specific inquiries</p>
+            </div>
+
+            <div class="faculty-grid fade-in">
+                <div class="faculty-card">
+                    <div class="faculty-header">
+                        <div class="faculty-avatar">HOD</div>
+                        <div class="faculty-info">
+                            <h3>Prof. Tom V. Mathew</h3>
+                            <div class="faculty-position">Head of Department</div>
+                            <div class="faculty-contact">
+                                <span><i class="fas fa-envelope"></i> tvm@civil.iitb.ac.in</span>
+                                <span><i class="fas fa-phone"></i> +91-22-2576-7349</span>
+                                <span><i class="fas fa-info-circle"></i> General Department Matters</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-header">
+                        <div class="faculty-avatar">DD</div>
+                        <div class="faculty-info">
+                            <h3>Prof. K V Krishna Rao</h3>
+                            <div class="faculty-position">Deputy Director (FIA)</div>
+                            <div class="faculty-contact">
+                                <span><i class="fas fa-envelope"></i> kvkrao@iitb.ac.in</span>
+                                <span><i class="fas fa-phone"></i> +91-22-2576-7305</span>
+                                <span><i class="fas fa-info-circle"></i> Industry Relations & Partnerships</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-header">
+                        <div class="faculty-avatar">PG</div>
+                        <div class="faculty-info">
+                            <h3>Prof. P. Vedagiri</h3>
+                            <div class="faculty-position">Dean (IPS)</div>
+                            <div class="faculty-contact">
+                                <span><i class="fas fa-envelope"></i> vedagiri@civil.iitb.ac.in</span>
+                                <span><i class="fas fa-phone"></i> +91-22-2576-7307</span>
+                                <span><i class="fas fa-info-circle"></i> Student Affairs & International Programs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-header">
+                        <div class="faculty-avatar">AO</div>
+                        <div class="faculty-info">
+                            <h3>Administrative Office</h3>
+                            <div class="faculty-position">Department Administration</div>
+                            <div class="faculty-contact">
+                                <span><i class="fas fa-envelope"></i> office@civil.iitb.ac.in</span>
+                                <span><i class="fas fa-phone"></i> +91-22-2576-7301</span>
+                                <span><i class="fas fa-info-circle"></i> Administrative Queries & Documentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Location Map -->
+    <!-- <section class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Find Us</h2>
+                <p class="section-subtitle">IIT Bombay campus location and directions</p>
+            </div>
+
+            <div style="background: var(--white); padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-lg); margin-bottom: 3rem;" class="fade-in">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                    <div>
+                        <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">How to Reach IIT Bombay</h3>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: var(--text-dark); margin-bottom: 0.5rem;"><i class="fas fa-plane"></i> By Air</h4>
+                            <p style="margin-bottom: 1rem;">Chhatrapati Shivaji Maharaj International Airport is the nearest airport, approximately 15 km from the campus. Taxi services and airport shuttles are available.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: var(--text-dark); margin-bottom: 0.5rem;"><i class="fas fa-train"></i> By Train</h4>
+                            <p style="margin-bottom: 1rem;">Kanjurmarg Railway Station (Central Line) is the nearest station, about 2 km from campus. Mumbai CST and Mumbai Central are major railway terminals.</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: var(--text-dark); margin-bottom: 0.5rem;"><i class="fas fa-subway"></i> By Metro</h4>
+                            <p style="margin-bottom: 1rem;">Powai Metro Station on Line 7 (Andheri East to Dahisar East) provides direct connectivity to the campus.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 style="color: var(--text-dark); margin-bottom: 0.5rem;"><i class="fas fa-car"></i> By Road</h4>
+                            <p>IIT Bombay is accessible via the Eastern Express Highway and Powai-Vihar Lake Road. Ample parking is available on campus.</p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div style="border-radius: 1rem; overflow: hidden; box-shadow: var(--shadow-md);">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.0689822124394!2d72.91174731490278!3d19.134321956964758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7ee3ed8b5af%3A0x4f29c1b6e3c8b8e0!2sIndian%20Institute%20of%20Technology%20Bombay!5e0!3m2!1sen!2sin!4v1635845123456!5m2!1sen!2sin" 
+                                    width="100%" 
+                                    height="300" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- FAQ Section -->
+    <!-- <section class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Quick answers to common inquiries</p>
+            </div>
+
+            <div class="card-grid fade-in">
+                <div class="card">
+                    <h3>Admissions</h3>
+                    <p><strong>Q: When do applications open for M.Tech/PhD programs?</strong><br>
+                    A: Applications typically open in February for the July session. Check our website and IIT Bombay admissions portal for exact dates.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Research</h3>
+                    <p><strong>Q: How can I collaborate on research projects?</strong><br>
+                    A: Contact the relevant faculty member directly or email research@civil.iitb.ac.in with your research proposal and background.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Industry Partnerships</h3>
+                    <p><strong>Q: Does TSE offer consulting services?</strong><br>
+                    A: Yes, we provide consulting services through our faculty expertise. Contact kvkrao@iitb.ac.in for industry collaboration opportunities.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Events</h3>
+                    <p><strong>Q: How can I participate in TPMDC conference?</strong><br>
+                    A: TPMDC is held biennially. Registration details are announced on our website 6 months prior to the conference.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Facilities</h3>
+                    <p><strong>Q: Can external researchers access lab facilities?</strong><br>
+                    A: Collaborative access may be possible through formal agreements. Contact the relevant faculty member to discuss possibilities.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Alumni</h3>
+                    <p><strong>Q: How can I stay connected with the TSE community?</strong><br>
+                    A: Join our alumni network by contacting alumni@civil.iitb.ac.in and follow our social media channels for updates.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Transportation Systems Engineering</h3>
+                    <p>Department of Civil Engineering<br>
+                       Indian Institute of Technology Bombay<br>
+                       Powai, Mumbai - 400076, India</p>
+                    <p>
+                        <span style="display: inline-flex; align-items: center; gap: 0.5em;">
+                            <i class="fas fa-phone"></i> <span>+91-9999999999</span>
+                        </span>
+                        <br>
+                        <span style="display: inline-flex; align-items: center; gap: 0.5em;">
+                            <i class="fas fa-envelope"></i> <span>tse@civil.iitb.ac.in</span>
+                        </span>
+                    </p>
+                </div>
+                <div class="footer-links-container">
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="faculty.html">Faculty</a></li>
+                            <li><a href="students.html">Students</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="events.html">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="https://www.iitb.ac.in" target="_blank"><i class="fas fa-external-link-alt"></i> IIT Bombay</a></li>
+                            <li><a href="https://www.civil.iitb.ac.in" target="_blank"><i class="fas fa-external-link-alt"></i> Civil Engineering Dept.</a></li>
+                            <li><a href="https://acad.iitb.ac.in/academics/calendar-and-timetable" target="_blank"><i class="fas fa-external-link-alt"></i> Academic Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Transportation Systems Engineering, IIT Bombay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
