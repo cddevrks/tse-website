@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tpmcd-2024",
+    "title": "TPMDC 2024 Conference: International Participation and Key Outcomes",
+    "date": "2024-12-18",
+    "excerpt": "The 15th Transportation Planning and Management Development Conference at IIT Bombay brought together leading academics and practitioners.",
+    "image": "assets/iitb-hero.jpg",
+    "slug": "tpmcd-2024.html",
+    "content": "<p>The 15th Transportation Planning and Management Development Conference (TPMDC 2024) at IIT Bombay featured keynote talks, invited sessions and multiple technical tracks on transport planning, traffic modelling and smart mobility. Participants from academia and industry presented case studies and pilot projects. Selected papers and extended abstracts will appear in the conference proceedings.</p>"
+  },
+  {
+    "id": "phd-admission-2025",
+    "title": "PHD ADMISSION SCHEDULE 2025-26 ( SPRING )",
+    "date": "2025-09-16",
+    "excerpt": "The Ph.D. programme application details and tentative schedule for Spring 2025-26 are now released.",
+    "image": "assets/iitb-hero.jpg",
+    "slug": "phd-admission-2025.html",
+    "content": "<p>For more details about the Ph.D. Programme SPRING 2025-26 kindly visit the department admissions page. Application procedures, eligibility criteria and deadlines are published there.</p>"
+  },
+  {
+    "id": "convocation-2025",
+    "title": "Convocation 2025 : Date and Time",
+    "date": "2025-08-11",
+    "excerpt": "Details about the convocation ceremony for graduating students including schedule and venue information.",
+    "image": "assets/iitb-hero.jpg",
+    "slug": "convocation-2025.html",
+    "content": "<p>Information regarding convocation dates and logistics for students graduating in 2025. Please check the official convocation schedule and reporting guidelines.</p>"
+  }
+]

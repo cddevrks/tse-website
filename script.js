@@ -416,6 +416,255 @@ function toggleDarkMode() {
     localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
 }
 
+// Gallery Lightbox
+(function() {
+    // Use figures (.gallery-item) so we can read captions and data-index
+    const galleryFigures = Array.from(document.querySelectorAll('.gallery-item'));
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox ? lightbox.querySelector('.lightbox-content img') : null;
+    const closeBtn = lightbox ? lightbox.querySelector('.lightbox-close') : null;
+    const prevBtn = lightbox ? lightbox.querySelector('.lightbox-prev') : null;
+    const nextBtn = lightbox ? lightbox.querySelector('.lightbox-next') : null;
+    const captionEl = lightbox ? lightbox.querySelector('.lightbox-caption') : null;
+    const counterEl = lightbox ? lightbox.querySelector('.lightbox-counter') : null;
+    const thumbsContainer = lightbox ? lightbox.querySelector('.lightbox-thumbnails') : null;
+    let currentIndex = 0;
+    let focusableBefore = null;
+    if (!galleryFigures.length || !lightbox || !lightboxImg) return;
+
+    // Tabs on the left side
+    const tabs = Array.from(document.querySelectorAll('.gallery-tab'));
+    function setActiveTab(tabBtn) {
+        tabs.forEach(t => t.classList.remove('active'));
+        tabBtn.classList.add('active');
+
+        const group = tabBtn.getAttribute('data-group');
+
+        // Show/hide gallery figures based on group
+        galleryFigures.forEach(fig => {
+            if (fig.getAttribute('data-group') === group) {
+                fig.style.display = '';
+            } else {
+                fig.style.display = 'none';
+            }
+        });
+    }
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => setActiveTab(tab));
+    });
+
+    // Initialize first tab (if any active)
+    const activeTab = tabs.find(t => t.classList.contains('active')) || tabs[0];
+    if (activeTab) setActiveTab(activeTab);
+
+    // Helper: build visible items list at open time
+    function buildVisibleItems() {
+        const visible = galleryFigures.filter(fig => getComputedStyle(fig).display !== 'none');
+        return visible.map((fig, idx) => {
+            const img = fig.querySelector('img');
+            const caption = fig.querySelector('.gallery-caption') ? fig.querySelector('.gallery-caption').textContent.trim() : img.alt || '';
+            const src = img.dataset.src || img.src;
+            return { src, alt: img.alt || '', caption, idx, fig };
+        });
+    }
+
+
+    // Build thumbnails inside lightbox from visible items
+    function buildThumbnails(items) {
+        if (!thumbsContainer) return;
+        thumbsContainer.innerHTML = '';
+        items.forEach((item, i) => {
+            const t = document.createElement('img');
+            t.src = item.src;
+            t.alt = item.alt || item.caption || `Image ${i + 1}`;
+            t.setAttribute('data-index', i);
+            t.tabIndex = 0;
+            t.addEventListener('click', () => showIndex(i));
+            t.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showIndex(i); } });
+            thumbsContainer.appendChild(t);
+        });
+    }
+
+    function updateLightboxUI(items) {
+        const item = items[currentIndex];
+        lightboxImg.src = item.src;
+        lightboxImg.alt = item.alt || item.caption || '';
+        if (captionEl) captionEl.textContent = item.caption || '';
+        if (counterEl) counterEl.textContent = `${currentIndex + 1} / ${items.length}`;
+
+        // Update thumbnails highlight
+        if (thumbsContainer) {
+            thumbsContainer.querySelectorAll('img').forEach(img => {
+                img.removeAttribute('aria-current');
+            });
+            const activeThumb = thumbsContainer.querySelector(`img[data-index="${currentIndex}"]`);
+            if (activeThumb) activeThumb.setAttribute('aria-current', 'true');
+        }
+    }
+
+    function openLightbox(index) {
+        // Rebuild items from currently visible figures
+        const items = buildVisibleItems();
+        if (!items.length) return;
+
+        // Rebuild thumbnails
+        buildThumbnails(items);
+
+        currentIndex = Math.min(index, items.length - 1);
+        updateLightboxUI(items);
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        // Save the element that had focus and move focus to close button
+        focusableBefore = document.activeElement;
+        if (closeBtn) closeBtn.focus();
+    }
+
+    function closeLightbox() {
+        lightbox.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        // restore focus
+        if (focusableBefore && typeof focusableBefore.focus === 'function') focusableBefore.focus();
+    }
+
+    function showIndex(index) {
+        const items = buildVisibleItems();
+        if (!items.length) return;
+        currentIndex = (index + items.length) % items.length;
+        updateLightboxUI(items);
+    }
+
+    function showPrev() {
+        showIndex(currentIndex - 1);
+    }
+
+    function showNext() {
+        showIndex(currentIndex + 1);
+    }
+
+    // Wire up click on gallery figures (index refers to visible order when tab selected)
+    galleryFigures.forEach((fig) => {
+        fig.tabIndex = 0;
+        fig.setAttribute('role', 'button');
+        fig.setAttribute('aria-label', (fig.querySelector('.gallery-caption') ? fig.querySelector('.gallery-caption').textContent.trim() : `Open image`));
+        fig.addEventListener('click', (e) => {
+            // Determine visible items and the index of this figure among them
+            const visible = buildVisibleItems();
+            const idx = visible.findIndex(v => v.fig === fig);
+            if (idx >= 0) openLightbox(idx);
+        });
+        fig.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                const visible = buildVisibleItems();
+                const idx = visible.findIndex(v => v.fig === fig);
+                if (idx >= 0) openLightbox(idx);
+            }
+        });
+    });
+
+    if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+    if (prevBtn) prevBtn.addEventListener('click', showPrev);
+    if (nextBtn) nextBtn.addEventListener('click', showNext);
+
+    // Keyboard controls and focus trapping
+    document.addEventListener('keydown', (e) => {
+        if (lightbox.getAttribute('aria-hidden') === 'false') {
+            if (e.key === 'Escape') { e.preventDefault(); closeLightbox(); }
+            if (e.key === 'ArrowLeft') { e.preventDefault(); showPrev(); }
+            if (e.key === 'ArrowRight') { e.preventDefault(); showNext(); }
+
+            // Simple focus trap: keep focus inside lightbox when open
+            if (e.key === 'Tab') {
+                const focusable = lightbox.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+                if (focusable.length === 0) return;
+                const first = focusable[0];
+                const last = focusable[focusable.length - 1];
+
+                if (e.shiftKey) { // shift+tab
+                    if (document.activeElement === first) {
+                        e.preventDefault(); last.focus();
+                    }
+                } else {
+                    if (document.activeElement === last) {
+                        e.preventDefault(); first.focus();
+                    }
+                }
+            }
+        }
+    });
+
+    // Click outside image to close (but allow clicks on controls)
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+
+    // Touch/swipe support for lightbox images
+    let lbTouchStartX = 0;
+    let lbTouchEndX = 0;
+    lightboxImg.addEventListener('touchstart', (e) => {
+        lbTouchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    lightboxImg.addEventListener('touchend', (e) => {
+        lbTouchEndX = e.changedTouches[0].screenX;
+        const diff = lbTouchStartX - lbTouchEndX;
+        if (Math.abs(diff) > 40) {
+            if (diff > 0) showNext(); else showPrev();
+        }
+    }, { passive: true });
+
+})();
+
+// News ticker pause-on-hover and duplication for seamless scroll
+(function() {
+    const ticker = document.querySelector('.ticker-track');
+    if (!ticker) return;
+
+    // Duplicate content for seamless loop if not already duplicated
+    if (ticker.children.length > 0 && ticker.dataset.duplicated !== 'true') {
+        ticker.innerHTML += ticker.innerHTML;
+        ticker.dataset.duplicated = 'true';
+    }
+
+    // Pause animation on hover
+    const wrapper = document.querySelector('.ticker-wrapper');
+    wrapper.addEventListener('mouseenter', () => {
+        ticker.style.animationPlayState = 'paused';
+    });
+    wrapper.addEventListener('mouseleave', () => {
+        ticker.style.animationPlayState = 'running';
+    });
+})();
+
+// Simple events carousel auto-scroll
+(function() {
+    const carousel = document.querySelector('.events-carousel');
+    if (!carousel) return;
+
+    let scrollPos = 0;
+    const step = 1; // pixels per frame
+
+    function stepScroll() {
+        scrollPos += step;
+        if (scrollPos >= carousel.scrollWidth / 2) {
+            scrollPos = 0; // reset for duplicated-like effect
+        }
+        carousel.scrollLeft = scrollPos;
+        requestAnimationFrame(stepScroll);
+    }
+
+    // Duplicate items for seamless scroll if not duplicated
+    if (!carousel.dataset.duplicated) {
+        carousel.innerHTML += carousel.innerHTML;
+        carousel.dataset.duplicated = 'true';
+    }
+
+    // Start scrolling on load
+    requestAnimationFrame(stepScroll);
+})();
+
 // Check for saved dark mode preference
 if (localStorage.getItem('darkMode') === 'true') {
     document.body.classList.add('dark-mode');
