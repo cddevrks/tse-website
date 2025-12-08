@@ -1,0 +1,13 @@
+{
+  "name": "tse_website",
+  "version": "1.0.0",
+  "description": "Static site for Transportation Systems Engineering (IIT Bombay)",
+  "scripts": {
+  "gen:news": "node scripts/generate-news.js",
+  "watch:news": "node scripts/watch-news.js",
+  "import:news": "node scripts/import-news-link.js"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

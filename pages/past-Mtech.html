@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distinguished Alumni - Transportation Systems Engineering | IIT Bombay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/iitb-logo.png" alt="IIT Bombay Logo" class="iitb-logo" style="height: 56px; vertical-align: middle; margin-right: 10px;">
+                    <span>Transportation Systems Engineering</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Faculty <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="faculty-current.html">Current Faculty</a></li>
+                            <li><a href="faculty-past.html">Past Faculty</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Students <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="PhD.html">PhD</a></li>
+                            <li><a href="Mtech.html">Mtech</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle active">Alumni <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="past-PhD.html">Past PhD</a></li>
+                            <li><a href="past-Mtech.html" class="active">Past Mtech</a></li>
+                            <li><a href="past-DualDegree.html">Dual Degree</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="research.html" class="nav-link">Research</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">M.Tech Alumni</h2>
+                <p class="section-subtitle">Distinguished alumni of Transportation Systems Engineering program (1994-2025)</p>
+            </div>
+
+            <!-- Alumni Statistics -->
+            <div class="stats" style="margin-bottom: 3rem;">
+                <div class="stat-card">
+                    <span class="stat-number" id="totalAlumni">0</span>
+                    <span class="stat-label">Total Alumni</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">31</span>
+                    <span class="stat-label">Years of Excellence</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" id="avgPerYear">0</span>
+                    <span class="stat-label">Avg. Graduates/Year</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">1994</span>
+                    <span class="stat-label">First Batch Year</span>
+                </div>
+            </div>
+
+            <!-- Search and Filter Controls -->
+            <div class="alumni-controls" style="background: var(--white); padding: 1.5rem; border-radius: 1rem; margin-bottom: 2rem; box-shadow: var(--shadow-md);">
+                <div style="display: grid; grid-template-columns: 1fr auto; gap: 1rem; align-items: center;">
+                    <div style="position: relative;">
+                        <i class="fas fa-search" style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-light);"></i>
+                        <input type="text" id="alumniSearch" placeholder="Search by name, dissertation title, or supervisor..." 
+                               style="width: 100%; padding: 0.75rem 1rem 0.75rem 2.5rem; border: 2px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem;">
+                    </div>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <select id="yearFilter" style="padding: 0.75rem 1rem; border: 2px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem;">
+                            <option value="">All Years</option>
+                            <option value="2020s">2020-2025</option>
+                            <option value="2010s">2010-2019</option>
+                            <option value="2000s">2000-2009</option>
+                            <option value="1990s">1990-1999</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="alumniCount" style="margin-top: 1rem; color: var(--text-light); font-size: 0.9rem;"></div>
+            </div>
+
+            <!-- Alumni Table -->
+            <div class="table-container fade-in">
+                <table id="alumniTable" class="modern-table">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable(0)" style="cursor: pointer;">
+                                Name <i class="fas fa-sort"></i>
+                            </th>
+                            <th>Dissertation Title</th>
+                            <th>Supervisor(s)</th>
+                            <th onclick="sortTable(3)" style="cursor: pointer;">
+                                Year <i class="fas fa-sort"></i>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="alumniTableBody">
+                        <!-- Alumni data will be loaded here via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Loading Message -->
+            <div id="loadingMessage" style="text-align: center; padding: 3rem; color: var(--text-light);">
+                <i class="fas fa-spinner fa-spin" style="font-size: 2rem; margin-bottom: 1rem;"></i>
+                <p>Loading alumni data...</p>
+            </div>
+
+            <!-- No Results Message -->
+            <div id="noResults" style="display: none; text-align: center; padding: 3rem; color: var(--text-light);">
+                <i class="fas fa-search" style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.3;"></i>
+                <p style="font-size: 1.2rem; font-weight: 600;">No alumni found</p>
+                <p>Try adjusting your search or filter criteria</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alumni Data Script -->
+    <script>
+        let alumniData = [];
+        let currentData = [];
+        let sortDirection = { 0: 'asc', 3: 'asc' };
+
+        // Load and display alumni data
+        async function loadAlumniData() {
+            try {
+                const response = await fetch('../data/mtech_alumni.json');
+                alumniData = await response.json();
+                currentData = alumniData;
+                
+                // Update statistics
+                document.getElementById('totalAlumni').textContent = alumniData.length;
+                const avgGrads = Math.round(alumniData.length / 31);
+                document.getElementById('avgPerYear').textContent = avgGrads;
+                
+                displayAlumni(currentData);
+                updateCount(currentData.length, alumniData.length);
+            } catch (error) {
+                console.error('Error loading alumni data:', error);
+                document.getElementById('loadingMessage').innerHTML = 
+                    '<p style="color: red;">Error loading alumni data. Please try again later.</p>';
+            }
+        }
+
+        function displayAlumni(data) {
+            const tbody = document.getElementById('alumniTableBody');
+            const loadingMessage = document.getElementById('loadingMessage');
+            const noResults = document.getElementById('noResults');
+            
+            if (data.length === 0) {
+                tbody.innerHTML = '';
+                loadingMessage.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            loadingMessage.style.display = 'none';
+            noResults.style.display = 'none';
+            
+            tbody.innerHTML = data.map((alumni, index) => `
+                <tr style="border-bottom: 1px solid var(--border-color); transition: background 0.2s ease;" 
+                    onmouseover="this.style.background='var(--light-gray)'" 
+                    onmouseout="this.style.background='var(--white)'">
+                    <td style="padding: 1rem; font-weight: 600; color: var(--primary-blue);">
+                        ${alumni.name}
+                    </td>
+                    <td style="padding: 1rem; color: var(--text-dark);">
+                        ${alumni.dissertation_title}
+                    </td>
+                    <td style="padding: 1rem; color: var(--text-light); font-size: 0.9rem;">
+                        ${alumni.supervisor}
+                    </td>
+                    <td style="padding: 1rem; text-align: center; font-weight: 600; color: var(--secondary-blue);">
+                        ${alumni.year}
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function updateCount(showing, total) {
+            document.getElementById('alumniCount').textContent = 
+                `Showing ${showing} of ${total} alumni`;
+        }
+
+        // Search functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('alumniSearch');
+            const yearFilter = document.getElementById('yearFilter');
+
+            searchInput.addEventListener('input', filterAlumni);
+            yearFilter.addEventListener('change', filterAlumni);
+
+            loadAlumniData();
+        });
+
+        function filterAlumni() {
+            const searchTerm = document.getElementById('alumniSearch').value.toLowerCase();
+            const yearFilter = document.getElementById('yearFilter').value;
+
+            let filtered = alumniData.filter(alumni => {
+                const matchesSearch = 
+                    alumni.name.toLowerCase().includes(searchTerm) ||
+                    alumni.dissertation_title.toLowerCase().includes(searchTerm) ||
+                    alumni.supervisor.toLowerCase().includes(searchTerm);
+
+                let matchesYear = true;
+                if (yearFilter) {
+                    const year = alumni.year;
+                    if (yearFilter === '2020s') matchesYear = year >= 2020 && year <= 2024;
+                    else if (yearFilter === '2010s') matchesYear = year >= 2010 && year < 2020;
+                    else if (yearFilter === '2000s') matchesYear = year >= 2000 && year < 2010;
+                    else if (yearFilter === '1990s') matchesYear = year >= 1990 && year < 2000;
+                }
+
+                return matchesSearch && matchesYear;
+            });
+
+            currentData = filtered;
+            displayAlumni(filtered);
+            updateCount(filtered.length, alumniData.length);
+        }
+
+        // Sort functionality
+        function sortTable(columnIndex) {
+            const direction = sortDirection[columnIndex];
+            
+            currentData.sort((a, b) => {
+                let valA, valB;
+                
+                if (columnIndex === 0) {
+                    valA = a.name.toLowerCase();
+                    valB = b.name.toLowerCase();
+                } else if (columnIndex === 3) {
+                    valA = a.year;
+                    valB = b.year;
+                }
+
+                if (direction === 'asc') {
+                    return valA > valB ? 1 : -1;
+                } else {
+                    return valA < valB ? 1 : -1;
+                }
+            });
+
+            sortDirection[columnIndex] = direction === 'asc' ? 'desc' : 'asc';
+            displayAlumni(currentData);
+        }
+    </script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Transportation Systems Engineering</h3>
+                    <p>Department of Civil Engineering<br>
+                       Indian Institute of Technology Bombay<br>
+                       Powai, Mumbai - 400076, India</p>
+                    <p>
+                        <span style="display: inline-flex; align-items: center; gap: 0.5em;">
+                            <i class="fas fa-phone"></i> <span>+91-9999999999</span>
+                        </span>
+                        <br>
+                        <span style="display: inline-flex; align-items: center; gap: 0.5em;">
+                            <i class="fas fa-envelope"></i> <span>tse@civil.iitb.ac.in</span>
+                        </span>
+                    </p>
+                </div>
+                <div class="footer-links-container">
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="faculty.html">Faculty</a></li>
+                            <li><a href="students.html">Students</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="events.html">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="https://www.iitb.ac.in" target="_blank"><i class="fas fa-external-link-alt"></i> IIT Bombay</a></li>
+                            <li><a href="https://www.civil.iitb.ac.in" target="_blank"><i class="fas fa-external-link-alt"></i> Civil Engineering Dept.</a></li>
+                            <li><a href="https://acad.iitb.ac.in/academics/calendar-and-timetable" target="_blank"><i class="fas fa-external-link-alt"></i> Academic Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Transportation Systems Engineering, IIT Bombay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

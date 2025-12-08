@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Shinde Vaishnavi Sunil",
+    "dissertation_title": "Transit System Alignment Fitting To Urban Forms: A Case Study Of The Pune Metropolitan Region",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2025
+  },
+  {
+    "name": "Shyam Manchhani",
+    "dissertation_title": "Quantitative Assessment Of Land Value Capture Potential Of Mumbai Metro System",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2025
+  },
+  {
+    "name": "Aashuraj Hassani",
+    "dissertation_title": "Factors Influencing Transition To Electric Vehicles And Estimation Of Charging Demand",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2024
+  },
+  {
+    "name": "Shubham Shriganesh Khandare",
+    "dissertation_title": "Traffic Delay Analysis In New Delhi Region Using Crowdsourced Data",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2023
+  },
+  {
+    "name": "Kirtesh Ajay Gadiya",
+    "dissertation_title": "Urban Growth Modelling In Kalyan And Contiguous Areas In Mumbai Metropolitian Region",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2021
+  },
+  {
+    "name": "Punna Saideep",
+    "dissertation_title": "Time Series Forecasting And Top Down Elasticity Modelling Of Indian Air Traffic",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2018
+  }
+]

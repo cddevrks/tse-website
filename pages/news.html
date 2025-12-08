@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | Transportation Systems Engineering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="dense">
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/iitb-logo.png" alt="IIT Bombay Logo" class="iitb-logo" style="height: 56px; vertical-align: middle; margin-right: 10px;">
+                    <span>Transportation Systems Engineering</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Faculty <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="faculty-current.html">Current Faculty</a></li>
+                            <li><a href="faculty-past.html">Past Faculty</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Students <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="PhD.html">PhD</a></li>
+                            <li><a href="Mtech.html">Mtech</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <span class="nav-link dropdown-toggle">Alumni <i class="fas fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="past-PhD.html">Past PhD</a></li>
+                            <li><a href="past-Mtech.html">Past Mtech</a></li>
+                            <li><a href="past-DualDegree.html">Dual Degree</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="research.html" class="nav-link">Research</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="news.html" class="nav-link active">News</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <section class="page-header" role="banner">
+            <div class="container">
+                <h1>News</h1>
+                <p>Stay updated with the latest announcements, events, and achievements from TSE</p>
+            </div>
+        </section>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container breadcrumb-nav">
+            <a href="../index.html">Home</a>
+            <span aria-hidden="true">/</span>
+            <span>News</span>
+        </div>
+    </nav>
+
+    <main class="section">
+        <div class="container">
+            <div class="news-page">
+                <div class="news-layout">
+                    <div class="news-main">
+                        <!-- Spotlight article -->
+                        <article class="news-featured" role="article">
+                            <div class="featured-media">
+                                <img src="../assets/young-faculty-fellowship.jpg" alt="Spotlight News" loading="lazy">
+                                <div class="featured-overlay">
+                                    <span class="featured-label">Spotlight</span>
+                                </div>
+                            </div>
+                            <div class="featured-body">
+                                <div class="news-date">October 10, 2025</div>
+                                <h2>IIT Bombay Congratulates Prof. Solomon Debbarma on Young Faculty Fellowship</h2>
+                                <p class="lead">Prof. Solomon Debbarma from the Department of Civil Engineering receives the prestigious Young Faculty Fellowship for his work in sustainable road infrastructure.</p>
+                                <a class="read-more" href="https://www.linkedin.com/posts/dean-acr-iit-bombay_iitb-youngfacultyfellowship-yff-ugcPost-7379518243272728576-bMVF"><i class="fas fa-chevron-right"></i> Read Full Story</a>
+                            </div>
+                        </article>
+
+                        <!-- More News heading -->
+                        <div class="news-grid-header">
+                            <h3>More News</h3>
+                            <div class="news-filter">
+                                <select id="news-category" aria-label="Filter news by category">
+                                    <option value="all">All Categories</option>
+                                    <option value="announcements">Announcements</option>
+                                    <option value="events">Events</option>
+                                    <option value="student-news">Student News</option>
+                                    <option value="research">Research</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="more-news-grid" role="list"></div>
+                    </div>
+
+                    <aside class="news-sidebar" role="complementary">
+                        <div class="sidebar-box">
+                            <h4>Latest News</h4>
+                            <ul class="mini-news"></ul>
+                        </div>
+
+                        <div class="sidebar-box">
+                            <h4>Categories</h4>
+                            <ul class="sidebar-links">
+                                <li><a href="#" data-category="all" class="active">All</a></li>
+                                <li><a href="#" data-category="announcements">Announcements</a></li>
+                                <li><a href="#" data-category="events">Events</a></li>
+                                <li><a href="#" data-category="student-news">Student News</a></li>
+                                <li><a href="#" data-category="research">Research</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-box social-feed">
+                            <h4>Social Media Feed</h4>
+                            <ul class="social-posts">
+                                <li>
+                                    <i class="fab fa-linkedin"></i>
+                                    <div>
+                                        <div class="social-date">October 10, 2025</div>
+                                        <a href="https://www.linkedin.com/posts/dean-acr-iit-bombay_iitb-youngfacultyfellowship-yff-ugcPost-7379518243272728576-bMVF" target="_blank">Congratulating Prof. Solomon Debbarma on his Young Faculty Fellowship!</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fab fa-linkedin"></i>
+                                    <div>
+                                        <div class="social-date">October 7, 2025</div>
+                                        <a href="https://www.linkedin.com/posts/avijitmaji_ctrg2025-transportationresearch-workshops-activity-7378826767991656449-RNJa" target="_blank">Join us at CTRG-2025 for cutting-edge workshops!</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Transportation Systems Engineering</h3>
+                    <p>Department of Civil Engineering<br>
+                       Indian Institute of Technology Bombay<br>
+                       Powai, Mumbai - 400076, India</p>
+                    <p>
+                        <span style="display: inline-flex; align-items: center; gap: 0.5em;">
+                            <i class="fas fa-phone"></i> <span>+91-9999999999</span>
+                        </span>
+                        <br>
+                        <span style="display: inline-flex; align-items: center; gap: 0.5em;">
+                            <i class="fas fa-envelope"></i> <span>tse@civil.iitb.ac.in</span>
+                        </span>
+                    </p>
+                </div>
+                <div class="footer-links-container">
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="faculty.html">Faculty</a></li>
+                            <li><a href="students.html">Students</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="events.html">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="https://www.iitb.ac.in" target="_blank"><i class="fas fa-external-link-alt"></i> IIT Bombay</a></li>
+                            <li><a href="https://www.civil.iitb.ac.in" target="_blank"><i class="fas fa-external-link-alt"></i> Civil Engineering Dept.</a></li>
+                            <li><a href="https://acad.iitb.ac.in/academics/calendar-and-timetable" target="_blank"><i class="fas fa-external-link-alt"></i> Academic Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Transportation Systems Engineering, IIT Bombay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/news-loader.js"></script>
+</body>
+</html>

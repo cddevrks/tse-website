@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Rajesh Kumar",
+    "batch": "2024-2026",
+    "specialization": "Traffic Engineering & Management"
+  },
+  {
+    "name": "Priya Sharma",
+    "batch": "2024-2026",
+    "specialization": "Transportation Planning"
+  },
+  {
+    "name": "Amit Patel",
+    "batch": "2024-2026",
+    "specialization": "Intelligent Transportation Systems"
+  },
+  {
+    "name": "Sneha Reddy",
+    "batch": "2023-2025",
+    "specialization": "Public Transportation Systems"
+  },
+  {
+    "name": "Vikram Singh",
+    "batch": "2023-2025",
+    "specialization": "Highway Engineering"
+  },
+  {
+    "name": "Ananya Gupta",
+    "batch": "2023-2025",
+    "specialization": "Sustainable Transportation"
+  }
+]

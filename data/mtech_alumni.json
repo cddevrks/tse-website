@@ -1,0 +1,1718 @@
+[
+  {
+    "name": "Getachew Aklog",
+    "dissertation_title": "A study for multimodal freight demand modelling",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1994
+  },
+  {
+    "name": "Sanjeev Yamdagni",
+    "dissertation_title": "Analysis and modelling of travel demand for greater Bombay",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Sikdar P.K.",
+    "year": 1994
+  },
+  {
+    "name": "K Dakshina Murthy",
+    "dissertation_title": "Operational management information system for urban bus services",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Sikdar P.K.",
+    "year": 1994
+  },
+  {
+    "name": "KONDETI NAGABHUSHANARAO",
+    "dissertation_title": "Traffic and development (land use) impacts of Mankhurd to Belapur Railway",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1994
+  },
+  {
+    "name": "PRADEEP KUMAR GARG",
+    "dissertation_title": "Regional transportation modelling for Nagpur metropolitan region",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1994
+  },
+  {
+    "name": "SALIBINDLA RAJA REDDY",
+    "dissertation_title": "Estimation of O-D Matrix from Link Counts",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1994
+  },
+  {
+    "name": "BAVANARI MALLIKARJUNA SETTY",
+    "dissertation_title": "Design and Evaluation of signalised intersection network using transyt / 9",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1994
+  },
+  {
+    "name": "V UDAYA KUMAR",
+    "dissertation_title": "Analysis of demand and supply of bus services in the influvence area of a route",
+    "supervisor": "Prof. Sikdar P.K. / Prof. Dhingra S.L.",
+    "year": 1994
+  },
+  {
+    "name": "SHENDE ARVIND BAPURAO",
+    "dissertation_title": "Planning and design of bus route network for new Bombay",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1995
+  },
+  {
+    "name": "Vaddamanu Satyakalyan Kumar",
+    "dissertation_title": "Developmetn of congestion indices in an urban mid-block and policy for congestion pricing",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1995
+  },
+  {
+    "name": "Sukanta Manna",
+    "dissertation_title": "Development of vehicle damage factors for different axle load categories",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Sikdar P.K.",
+    "year": 1995
+  },
+  {
+    "name": "Waikhom Imocha Singh",
+    "dissertation_title": "Mode choice analysis and modelling for Nagpur",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1995
+  },
+  {
+    "name": "Rohit",
+    "dissertation_title": "Planning and design of public transport network for Nagpur metropolitan region",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1995
+  },
+  {
+    "name": "Vijaykumar Haridas",
+    "dissertation_title": "Impact assessment of NHAVA SHEVA PORT",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1995
+  },
+  {
+    "name": "Kondaveeti Sivanarayana",
+    "dissertation_title": "COMPARATIVE STUDY OF IRC, HDM, RTIM MODELS FOR ECONOMICA EVALUATION OF TRANSFPORTATION",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1996
+  },
+  {
+    "name": "Nirajkumar S Deshpande",
+    "dissertation_title": "MODE CHOICE MODELLING FOR DELHI",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1996
+  },
+  {
+    "name": "Viswanatha Venkateswarulu",
+    "dissertation_title": "LAND USE TRANSPORT MODEL FOR GUWAHATI",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1996
+  },
+  {
+    "name": "Deepak Jain",
+    "dissertation_title": "DEVELOPMENT OF SPEED-FLOW RELATIONSHIPS FOR DIFFERENT CATEGORIES OF ROADS IN B.M.R.",
+    "supervisor": "Prof. Sikdar P.K. / Prof. Dhingra S.L.",
+    "year": 1996
+  },
+  {
+    "name": "Pitta Dharma Reddy",
+    "dissertation_title": "EVALUATION OF TRAFFIC ASSIGNMENT MODELS",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1996
+  },
+  {
+    "name": "Ram Gopal Reddy Madarapu",
+    "dissertation_title": "SIMULATION OF CO-ORDINATED SIGNALISED INTERSECTION NETWORK",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Sikdar P.K.",
+    "year": 1996
+  },
+  {
+    "name": "Shilawat Sandeep Tulshiram",
+    "dissertation_title": "CREW AND VEHICLE SCHEDULING FOR VARIOUS ROUTES OF DEPOT (BEST)",
+    "supervisor": "Prof. Sikdar P.K. / Prof. Dhingra S.L.",
+    "year": 1996
+  },
+  {
+    "name": "NUKALA SHYAM PRASAD",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1997
+  },
+  {
+    "name": "GAMINI SRINIVAS",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1997
+  },
+  {
+    "name": "M VENKATA KRISHNA MOHAN",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1997
+  },
+  {
+    "name": "M MANEESH KUMAR",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1997
+  },
+  {
+    "name": "POTTETI LAKSHMI CHENNAPPA PRASAD",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1997
+  },
+  {
+    "name": "Javvadi Srinivas",
+    "dissertation_title": "Planning and monitoring of regional road network using geographic information system",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1998
+  },
+  {
+    "name": "B.V.R.V. Hanumantha Rao",
+    "dissertation_title": "Accident analysis for regional road network using georgraphic information system (GIS) : For development of safety support system",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1998
+  },
+  {
+    "name": "Manoj Ramkrishna Dhanorkar",
+    "dissertation_title": "Planning for Pedestrian movement in station areas",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 1998
+  },
+  {
+    "name": "M. Sukumar",
+    "dissertation_title": "Planning of bus route network and its management for Guwahati city",
+    "supervisor": "Prof. Sikdar P.K.",
+    "year": 1998
+  },
+  {
+    "name": "Vanamareddy Vijay Bhaskar",
+    "dissertation_title": "Trip distribution using artificial neural networks",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 1998
+  },
+  {
+    "name": "K.Sumasaili Rao",
+    "dissertation_title": "Choice of Access mode to rail",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 1998
+  },
+  {
+    "name": "Hemant Sharad Chore",
+    "dissertation_title": "Economic evaluation of Pedestrian subways at mid-block Zebra crossings",
+    "supervisor": "Prof. Sikdar P.K. / Prof. Kurra Venkata Krishna Rao",
+    "year": 1998
+  },
+  {
+    "name": "Pushadapu Venkata Subba Rao",
+    "dissertation_title": "Access mode choice analysis using fuzzy logic based neural networks",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Sikdar P.K.",
+    "year": 1998
+  },
+  {
+    "name": "Krishna Padma Modugula",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1999
+  },
+  {
+    "name": "Raju Mandapaty",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1999
+  },
+  {
+    "name": "Jagarapu Anand Kumar",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1999
+  },
+  {
+    "name": "Muralidhar Somipalli",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1999
+  },
+  {
+    "name": "Neeraj Kumar Baderia",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1999
+  },
+  {
+    "name": "Srilakshmi Kota",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1999
+  },
+  {
+    "name": "Amitabh Baruah",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 1999
+  },
+  {
+    "name": "Yograj Madhukar Kolhe",
+    "dissertation_title": "Application of artificial neural networks for trip distribution",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2000
+  },
+  {
+    "name": "Kadapa Nagendra Chari",
+    "dissertation_title": "Traffic assignment using saturn : Study of the effect of PCU factors",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2000
+  },
+  {
+    "name": "Chava V.V. Prakash",
+    "dissertation_title": "Simulation of Mid- Block pedestrain crossings",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2000
+  },
+  {
+    "name": "K Md Ibrahim Khaleelulla",
+    "dissertation_title": "Micro- simulation model for signalized intersection with visualization",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2000
+  },
+  {
+    "name": "Srinivasa Rao Vikram",
+    "dissertation_title": "A comparative study of traffic assignment using trans CAD",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2000
+  },
+  {
+    "name": "Gundaliya Pradipkumar Jayantilal",
+    "dissertation_title": "Optimal design of bus transit network using genetic algorithm",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2000
+  },
+  {
+    "name": "Ch V Subba Rao",
+    "dissertation_title": "Micro simulation model for land- use using artificial neural network",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2000
+  },
+  {
+    "name": "B. Sreenivasulu",
+    "dissertation_title": "Analysis of congested signalised inter sections with mixed traffic",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2001
+  },
+  {
+    "name": "Saikat Banerjee",
+    "dissertation_title": "Optimization of bus transit network design with integrated routing and scheduling",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2001
+  },
+  {
+    "name": "P.V. Sateesh Sri Ram",
+    "dissertation_title": "Development of a network information system in GIS environment",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2001
+  },
+  {
+    "name": "Debasis Basu",
+    "dissertation_title": "Development of combined trip distribution and modal split model using Ann",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2001
+  },
+  {
+    "name": "Srinivasulu K.",
+    "dissertation_title": "Signal coordination in congested networks with mixed traffic",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2001
+  },
+  {
+    "name": "Shanker Kumar Mishra",
+    "dissertation_title": "Evaluation of trafffic management options of a small network using saturn and transit software packages",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2001
+  },
+  {
+    "name": "Kavitha Boddapati",
+    "dissertation_title": "Modelling route choice responses using stated preference data",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2001
+  },
+  {
+    "name": "Ram Kumar B.",
+    "dissertation_title": "Environmental impact assessment of transportation projects",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2001
+  },
+  {
+    "name": "Arvind Gupta",
+    "dissertation_title": "Fuzzy controller for pedestrian signal crossing",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2001
+  },
+  {
+    "name": "Kaushik Datta",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Prashant Baburao Kanthe",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Manoj Kumar Panigrahi",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Praharaju V.V.D.Bhaskar",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Arun Kumar Mishra",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Gopal Ramachandra Patil",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Soumen Datta",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Selvaraj R.",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "B. Kiran Kumar",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Balaji Prudhvi",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Sheela Karunakaran",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Amlan Banerjee",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "S.V.L.Narasimha Kumar",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2002
+  },
+  {
+    "name": "Shabana Thabassum",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2003
+  },
+  {
+    "name": "E. Polaiah",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2003
+  },
+  {
+    "name": "Rajesh Kumar Dash",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2003
+  },
+  {
+    "name": "Shankar Ramchand Tilokani",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2003
+  },
+  {
+    "name": "Pavan Kumar Patri",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2003
+  },
+  {
+    "name": "Prakash Darsi",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2003
+  },
+  {
+    "name": "Manoj Ramchandra Dandare",
+    "dissertation_title": "",
+    "supervisor": "",
+    "year": 2003
+  },
+  {
+    "name": "Rajiv Sharma",
+    "dissertation_title": "GIS Based Pavement Management System.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao / Prof. Dhingra S.L.",
+    "year": 2004
+  },
+  {
+    "name": "Jayalakshmi Uradhanda",
+    "dissertation_title": "Study of HDM-4: An Application to Indian Conditions",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2004
+  },
+  {
+    "name": "Mukund Jayant Nashikkar",
+    "dissertation_title": "Traffic Assignment for Urban Road Network Considering Link Interactions.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2004
+  },
+  {
+    "name": "Suresh Adhikari",
+    "dissertation_title": "Pavement Management System in GIS Environment.",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Tom V. Mathew",
+    "year": 2004
+  },
+  {
+    "name": "Sushil Maheshwari",
+    "dissertation_title": "Performance Evaluation of Tall Plaza.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2004
+  },
+  {
+    "name": "Vivek Mathur",
+    "dissertation_title": "Empirical Mechanistic Methods of Flexible Pavement Design - An Investigation.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao / Prof. Tom V. Mathew",
+    "year": 2004
+  },
+  {
+    "name": "R S V N Sharma",
+    "dissertation_title": "A Disaggregate Travel Demand Model for Mumbai Pune Corridor.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao / Prof. Dhingra S.L.",
+    "year": 2004
+  },
+  {
+    "name": "Wubeshet Belayneh Woldemariam",
+    "dissertation_title": "Characteristics of Modified Bituminous Paving Mixes - An Investigation.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2004
+  },
+  {
+    "name": "Sandeep Kumar Datla",
+    "dissertation_title": "GIS Based Urban Transport Network Management.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2004
+  },
+  {
+    "name": "Habtamu Melese Zelelew",
+    "dissertation_title": "Comparative Study of Pavement Structuran Evaluation and Overlat Design",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2005
+  },
+  {
+    "name": "Daba Shabara Gedafa",
+    "dissertation_title": "Predicting Flexible Pavement Performance using Distress & Deterioration Models.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2005
+  },
+  {
+    "name": "Sabyasachee Mishra",
+    "dissertation_title": "Travel Demand Modeling for a Metropolitan Region",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2005
+  },
+  {
+    "name": "Jigesh Navinchandra Bhavsar",
+    "dissertation_title": "Planning for High Capacity Bus System.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2005
+  },
+  {
+    "name": "Harish Kumar",
+    "dissertation_title": "Geographic Information System for Pavement Management System",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2005
+  },
+  {
+    "name": "Anand Kumar",
+    "dissertation_title": "Environmental Impact Assessment of Metro Project",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2005
+  },
+  {
+    "name": "Venkata Siva Ramakrishna Paduchuri",
+    "dissertation_title": "Modelling Transit Assignment",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2005
+  },
+  {
+    "name": "Patil Amol Rajgonda",
+    "dissertation_title": "Congestion and Environmental Pricing of Urban Roads.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2005
+  },
+  {
+    "name": "Satyasrinivas Bapaiah G",
+    "dissertation_title": "Integration of GIS and GPS for Urban Transport Network Management",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2005
+  },
+  {
+    "name": "Saurabh Gupta",
+    "dissertation_title": "Traffic Monitoring and Control : Intelligent Transportation System",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2005
+  },
+  {
+    "name": "Nagendra Rao Velaga",
+    "dissertation_title": "Pavement Management System using GIS and GPS",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2006
+  },
+  {
+    "name": "Venkata Naga Indira M.",
+    "dissertation_title": "Urban Corridor Analysis",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2006
+  },
+  {
+    "name": "Sirapu Girish Kumar",
+    "dissertation_title": "Integration of GIS and GPS for Transportation Planning Surveys",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2006
+  },
+  {
+    "name": "Subrata Das",
+    "dissertation_title": "Methodology of Accident Reconstruction",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2006
+  },
+  {
+    "name": "Uttam Shankar Shekhar",
+    "dissertation_title": "A Comparision of Accessibility Measures in GIS Environment",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Kurra Venkata Krishna Rao",
+    "year": 2006
+  },
+  {
+    "name": "Amit Kumar",
+    "dissertation_title": "Real Time Public Transport Information System using GIS and GPS Integration",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2006
+  },
+  {
+    "name": "Ravindra Dinkar Suradkar",
+    "dissertation_title": "Calibration and Application of HDM-4 Deterioration Models for Greater Mumbai Road Network",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2006
+  },
+  {
+    "name": "Salini S",
+    "dissertation_title": "Homogeneous Traffic Flow Modelling for an Urban Arterial Using Cellular Automata",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2006
+  },
+  {
+    "name": "Nandkumar Ganapati Latane",
+    "dissertation_title": "Highway Network Inventory System Using GIS",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2006
+  },
+  {
+    "name": "Venu Gopal K. P.",
+    "dissertation_title": "Transit Route Network Design using GA for Greater Mumbai Area",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2006
+  },
+  {
+    "name": "Anurag Kushwaha",
+    "dissertation_title": "Effect of Route Choice Models on Network Travel time Reliabilities.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2007
+  },
+  {
+    "name": "Abhinav G.",
+    "dissertation_title": "Air Tavel Demand Modelling for Mumbai Metropolitan Region.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2008
+  },
+  {
+    "name": "G. Rajesh",
+    "dissertation_title": "Evaluation Scheme for Long Term work Zone Traffic management Plans.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2008
+  },
+  {
+    "name": "Aditya M. R.",
+    "dissertation_title": "Impact of Proposed Growth centres on Transportation Scenario of Pune Metropolitan Area.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2008
+  },
+  {
+    "name": "Allam Sivakanth",
+    "dissertation_title": "Study of Typical Parameters at Signalized Intersections.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2008
+  },
+  {
+    "name": "Rohit Parmar",
+    "dissertation_title": "Financial Analysis of Airport Projects",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2008
+  },
+  {
+    "name": "Kajal Dubey",
+    "dissertation_title": "Conceptual Architecture and Porgression Model for an Area Traffic Control System.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2008
+  },
+  {
+    "name": "Nandakumar Reddy S.",
+    "dissertation_title": "Approximation Schemes and Sampling Methods for Robust Network Design Problem under Uncertain Demand.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2008
+  },
+  {
+    "name": "Valekar Pritiben Sureshbhai",
+    "dissertation_title": "Public Transit Flect Management and Scheduling for Greator Mumbai.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2008
+  },
+  {
+    "name": "Guru Charandas Nunna",
+    "dissertation_title": "Travel Time Prediction from Single Loop Detector.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2008
+  },
+  {
+    "name": "Ishtiyaq Gull",
+    "dissertation_title": "Optimal Transit Route Network Design.",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Tom V. Mathew",
+    "year": 2008
+  },
+  {
+    "name": "Shelli Biswas",
+    "dissertation_title": "Environmental Impact assessment of Thane Ghodbunder Road Project.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2008
+  },
+  {
+    "name": "Umesh Chandra Koted",
+    "dissertation_title": "Calibration and Validation of Road Deteriotion Model Using HDM-4",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2008
+  },
+  {
+    "name": "Revade Ravi Sukhadev",
+    "dissertation_title": "Evaluation of an Area Traffic Control Systems and Saturation flow Model for Heterugeneous Traffic.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2008
+  },
+  {
+    "name": "Soumyajit Ghosh",
+    "dissertation_title": "Coordinated Feeder Route Development for the Proposed Mass Transit System.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2008
+  },
+  {
+    "name": "Anoop Sridhar",
+    "dissertation_title": "Traffic Management and Departure Choice Model for an Urban High Speed Corridor",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2009
+  },
+  {
+    "name": "Patel Chirag Natvarlal",
+    "dissertation_title": "Evaluation of Toll Plaza",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2009
+  },
+  {
+    "name": "Rajendra Singh Rathore",
+    "dissertation_title": "Development of GIS Database and Travel Demand Analysis",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2009
+  },
+  {
+    "name": "Padmini Priyadarshni G.",
+    "dissertation_title": "Development of Behavioural Models of Travel for Metroplitan Areas",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2009
+  },
+  {
+    "name": "Venu Madhav Garikapati",
+    "dissertation_title": "Modelling Choice of Airport and Access Mode",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2009
+  },
+  {
+    "name": "Yashwanth Kumar Namasani",
+    "dissertation_title": "Traffic Imact Assessment of Exclusive Lanes",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2009
+  },
+  {
+    "name": "Vishnu Vardhan K. R.",
+    "dissertation_title": "Suitable Congestion Charging Scheme for Greater Mumbai.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2009
+  },
+  {
+    "name": "M.Mahadev",
+    "dissertation_title": "Forecasting Travel Demand for Pedestrian Facilities",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2009
+  },
+  {
+    "name": "Joshi Rohan Shirish",
+    "dissertation_title": "Study for Integrated Pavement Evaluation Modelling",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2009
+  },
+  {
+    "name": "Shabade Avinash Mallinath",
+    "dissertation_title": "Urban Intersection Modeling for Area Traffic Control in Heterogeneous Traffic",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2009
+  },
+  {
+    "name": "Jitendra Wadhwani",
+    "dissertation_title": "Travel and Air Quality Impact Assessment of Navi Mumbai International Airport",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2009
+  },
+  {
+    "name": "Sivakrishna Gudupu",
+    "dissertation_title": "Activity Based Travel Demand Modeling",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2009
+  },
+  {
+    "name": "Patil Pranjal Pramod",
+    "dissertation_title": "Vulnerability Analysis of Transportation Network Infrastructure",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2009
+  },
+  {
+    "name": "Pallavit Saraf",
+    "dissertation_title": "Estimation of Base Year Travel Pattern For Metropolitan Areas",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2009
+  },
+  {
+    "name": "Sajay Pathapati",
+    "dissertation_title": "Integrated Mix Design System for Hot Recycled Asphalt Mix and its Comparitive Evaluation",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2010
+  },
+  {
+    "name": "Tanaji Maruti Gunjate",
+    "dissertation_title": "Pavement Management System in GIS Environment",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2010
+  },
+  {
+    "name": "Muli Nagendra Babu Reddy",
+    "dissertation_title": "Effect of Binder Type on Properties of Stone Mastic Asphalt",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2010
+  },
+  {
+    "name": "Sandhya Nagaraju",
+    "dissertation_title": "Evaluation of Development Scenarios towards Sustainable Urban Transportation : A Case Study of Pune City",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2010
+  },
+  {
+    "name": "Kannemadugu Balakrishna",
+    "dissertation_title": "Developing Travel Demand Model for Planning BRTS(Bus Rapid Transit System) in Mumbai",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2010
+  },
+  {
+    "name": "B. Anish Kini",
+    "dissertation_title": "Public Transit Trip Planner",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2010
+  },
+  {
+    "name": "Pankaj Yadav",
+    "dissertation_title": "Modeling Traffic Operations at Toll Plaza",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2010
+  },
+  {
+    "name": "Revathy Nair",
+    "dissertation_title": "Development of System Architecture of Area Traffic Control System for Heterogeneous Traffic",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2010
+  },
+  {
+    "name": "Srinivas G",
+    "dissertation_title": "Evaluation of Land Use Scenarios Using a Travel Demand Model for Mumbai Metropolitan Region",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2011
+  },
+  {
+    "name": "Bhanushali Hitesh Liladhar",
+    "dissertation_title": "Evaluation of Development Plans Towards Sustainable Urban Transportation - A Case Study of Pune City.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2011
+  },
+  {
+    "name": "Ch Sekhara Rao Mojjada",
+    "dissertation_title": "Travel Demand Forecasting for an Urban Treeway Corridor - A Case Study of Versova-Bandra Sea Link.",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Kurra Venkata Krishna Rao",
+    "year": 2011
+  },
+  {
+    "name": "Patare Prasad Subhash",
+    "dissertation_title": "Gap Acceptance Behavior of Two-Wheelers at Uncontrolled Intersection",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2011
+  },
+  {
+    "name": "Dileep D. Anithottam",
+    "dissertation_title": "Study on Pedestrian Flow Characteristics and Level of Service at Mid Block Sections.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2011
+  },
+  {
+    "name": "B D N V Prasad Manepalli",
+    "dissertation_title": "Analysis of Traffic Data from Loop Detectors",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2011
+  },
+  {
+    "name": "Keerthi Chandan K V",
+    "dissertation_title": "Real-Time Adaptive Control Policy for Intersection with Downstream Detection",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2011
+  },
+  {
+    "name": "Ali Hakimelahi",
+    "dissertation_title": "Travel Demand Estimation and it's Relation to Fuel Consumption Base: A case Study of Shiraz City",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Kurra Venkata Krishna Rao",
+    "year": 2011
+  },
+  {
+    "name": "Ayyappa Rao Janga",
+    "dissertation_title": "Public Transit Trip Planner Based on Reliability and Route Choice Concepts.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2012
+  },
+  {
+    "name": "Pentapati Bhargav Venil",
+    "dissertation_title": "Impact of Airport Ground Access on Urban Networks: A Case Study of Mumbai Metropolitan Region.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2012
+  },
+  {
+    "name": "Chetan Kumar H.",
+    "dissertation_title": "An Improved GIS based Urban Transportation Planning Model for Pune Metropolitan Region.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2012
+  },
+  {
+    "name": "A. Pradhan Kumar",
+    "dissertation_title": "Bus Travel and Arrival Prediction under Mixed Traffic Conditions.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2012
+  },
+  {
+    "name": "Anuj Kumar Yadav",
+    "dissertation_title": "Time Series Freight Demand Models for Octroi Stations in Mumbai and Developing a Simulation Model for Mankhurd-Panvel Highway Octroi Station.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2012
+  },
+  {
+    "name": "Amit Kumar",
+    "dissertation_title": "Activity Pattern Choice Model for Mumbai Metropolitan Region.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2012
+  },
+  {
+    "name": "Nagraj R.",
+    "dissertation_title": "Modeling Pedestrian Flow & Level-of-Service for Crosswalks at Signalized Intersections.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2012
+  },
+  {
+    "name": "Anna Charly",
+    "dissertation_title": "Coordination of Real-Time Adaptive Traffic Signal Control for Intersections with Downstream Detection.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2012
+  },
+  {
+    "name": "Pruthvi M.",
+    "dissertation_title": "A Methodology for Calibration of Traffic Micro Simulators in Mixed Traffic Condition.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2012
+  },
+  {
+    "name": "Kaniska Ghosh",
+    "dissertation_title": "Capacity Augmentation Study of Mumbai-Pune Expressway .",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2012
+  },
+  {
+    "name": "Ghodke Rohit Ramesh",
+    "dissertation_title": "Study for Modelling of Travel and Air Quality Impact Assessment of a Coastal Road Corridor in Mumbai.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2012
+  },
+  {
+    "name": "Bandhan Bandhu Majumdar",
+    "dissertation_title": "Comparitive Study on Different Aspects of Sustainability for a Stretch on Thane Belapur Road in Mumbai.",
+    "supervisor": "Prof. Dhingra S.L.",
+    "year": 2012
+  },
+  {
+    "name": "Hemendra Kumar Jatav",
+    "dissertation_title": "Experimental Study of Reccled Asphalt Mixtures with High Percentage of RAP.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2013
+  },
+  {
+    "name": "Birara Tekeste",
+    "dissertation_title": "Pavement Management System with GIS Environment.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2013
+  },
+  {
+    "name": "Apurba Ghosh",
+    "dissertation_title": "Online Monitoring of Public Transport Demand.",
+    "supervisor": "Prof. Dhingra S.L. / Prof. Gopal Ramachandra Patil",
+    "year": 2013
+  },
+  {
+    "name": "Changde Piyush Sanjay",
+    "dissertation_title": "Integrated Transportation Model for Transit System with Last Mile Connection: A Case Study of Bandra Kurla Complex.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2013
+  },
+  {
+    "name": "N Leela Manikanta Kumar",
+    "dissertation_title": "Development of a Population Synthesizer for a Mega City in a Developing Country, A Case Study for Greater Mumbai.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2013
+  },
+  {
+    "name": "Neeraj Saxena",
+    "dissertation_title": "Developing Simulation Model for Urban Road Networks in Developing Countries using TRANSIMS.",
+    "supervisor": "Prof. Gopal Ramachandra Patil / Prof. Dhingra S.L.",
+    "year": 2013
+  },
+  {
+    "name": "Soumya Ramachandran Nair",
+    "dissertation_title": "Estimation of Dynamic Offset for an Adaptive Coordinated Traffic Signal Control System.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2013
+  },
+  {
+    "name": "Pratik Patra",
+    "dissertation_title": "Real Time Adaptive Traffic Signal Optimization.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2013
+  },
+  {
+    "name": "Ashu Sintayehu Bekele",
+    "dissertation_title": "Optimization Tool for Urban Real Time Commercial Vehicles Operation.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2013
+  },
+  {
+    "name": "Tariku Asfaw Tedla",
+    "dissertation_title": "Laboratory Performance Evaluation of Stabilized Soils for Pavement Application.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2014
+  },
+  {
+    "name": "Freddy Antony M. B.",
+    "dissertation_title": "Modelling of Motorcycle Movement in Mixed Traffic Condition.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2014
+  },
+  {
+    "name": "Ramesh Chandra Majhi",
+    "dissertation_title": "Saturation Flow Modelling Using Dynamic Passenger Car Unit Under Mixed Traffic Condition.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2014
+  },
+  {
+    "name": "Abhijeet Ostawal",
+    "dissertation_title": "Operational Model for Lateral Movement in Mixed Traffic Conditions.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2014
+  },
+  {
+    "name": "Sudhanshu Sekhar Gouda",
+    "dissertation_title": "Effect of Walkability Parameters on Transit Oriented Development.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2014
+  },
+  {
+    "name": "Sushmita Rai",
+    "dissertation_title": "Capacity and Level of Service Study for Sidewalks.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2014
+  },
+  {
+    "name": "Pijush Kanti Sarkar",
+    "dissertation_title": "Development of Level of Service Model for Elevated Walkway.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2014
+  },
+  {
+    "name": "Srinivas F. Chitragar",
+    "dissertation_title": "Laboratory Performance Evaluation of Bituminous Mixes Containing Recycled Asphalt Pavement.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2014
+  },
+  {
+    "name": "Abhishek Kumar Singh",
+    "dissertation_title": "Land Use Strategies for Transit Oriented Development.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2014
+  },
+  {
+    "name": "Kamalapuram Sravya",
+    "dissertation_title": "Population Updating For Activity Based Micro-Simulation Model : A Case Study of Greater Mumbai.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2014
+  },
+  {
+    "name": "Alakananda Sen",
+    "dissertation_title": "Evaluation of Transit Alternatives in Pune Metropolitan Region Based on Sustainability Indices.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2014
+  },
+  {
+    "name": "Maripini Himabindu",
+    "dissertation_title": "Evaluation of Transit System for Last Mile Connectivity : A Case Study of Navi Mumbai.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2014
+  },
+  {
+    "name": "Vishal Suresh Konbattulwar",
+    "dissertation_title": "Operational Lateral Movement Model for Motorcycle in Mixed Traffic Conditions Using Social Force.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2015
+  },
+  {
+    "name": "Dheeraj Vijay Sawant",
+    "dissertation_title": "Laboratory Performance Characterization of Asphalt Binders Blended with RAP.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2015
+  },
+  {
+    "name": "Abhishek",
+    "dissertation_title": "Rheological Characterization of Asphalt Binders Residue Obtained From Different Recovery Methods.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2015
+  },
+  {
+    "name": "Aditya Vijay Sohoni",
+    "dissertation_title": "Application of the Concept of Transit Oriented Development to a Suburban Neighborhood.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2015
+  },
+  {
+    "name": "Mariam Thomas",
+    "dissertation_title": "Intercity Travel Analysis for a University Township with Emphasis on Air Travel.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2015
+  },
+  {
+    "name": "Shetkar Rohan Rajeev",
+    "dissertation_title": "Saturation Flow Modelling of Signalized Intersection in Mixed Traffic.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2015
+  },
+  {
+    "name": "Siddhartha Gulhare",
+    "dissertation_title": "Study of Microscopic Pedestrian Flow Behavior.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2015
+  },
+  {
+    "name": "Thadoju Srinivas",
+    "dissertation_title": "Freight Trip Generation from Restaurants in Mumbai.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2015
+  },
+  {
+    "name": "Madiga Vannura Swamy",
+    "dissertation_title": "Effect of Travel Time Reliability on Traveler Route Choice Behavior.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2015
+  },
+  {
+    "name": "Belachew Gebrewold Shogamo",
+    "dissertation_title": "Reliability Based Flexible Pavement Overlay Design Using FWD Date.",
+    "supervisor": "Prof. Avijit Maji / Prof. Dharamveer Singh",
+    "year": 2015
+  },
+  {
+    "name": "Joshi Rohan Laxmikant",
+    "dissertation_title": "Evaluation of Sustainable Land Use Strategies along High Capacity Transit Corridor: A Case Study of Pune Metropolitan Region.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2016
+  },
+  {
+    "name": "Palaniappan S.",
+    "dissertation_title": "Evaluation of Public Transport and Integration of IPT Mode: A Case Study of Thane City.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2016
+  },
+  {
+    "name": "Yenare Chetan Dadabhau",
+    "dissertation_title": "Laboratory Performance Evaluation of Asphalt Binder and Mixes Containing Ground Nut Shells Bio-oil.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2016
+  },
+  {
+    "name": "Ayush Tyagi",
+    "dissertation_title": "Operating and Design Speed Prediction Models for Four Lane Rural Highways.",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2017
+  },
+  {
+    "name": "Sanu Meena",
+    "dissertation_title": "Trip Generation and Mode Choice Modelling for Shopping Mall Trips in Mumbai.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2017
+  },
+  {
+    "name": "Sasane Gajanan Supdaji",
+    "dissertation_title": "GIS based Solid Waste Transport Modelling for Greater Mumbai.",
+    "supervisor": "Prof. Perumal Vedagiri / Prof. Nagendra Rao Velaga",
+    "year": 2017
+  },
+  {
+    "name": "Aupal Mondal",
+    "dissertation_title": "Airport Trip Generation and Airport Choice Modelling in a Multi-Airport Region : A Case Study of Mumbai Metropolitan Region (MMR).",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2017
+  },
+  {
+    "name": "Kulkarni Amruta Aniruddha",
+    "dissertation_title": "Evaluation of Integration of Transportation Modes for Last Mile Connectivity : Case Study of Pune Metropolitan Region.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2017
+  },
+  {
+    "name": "Elluri Manoj Kumar",
+    "dissertation_title": "Accident Severity Modeling and Blackspot Identification : A Case Study of Mumbai-Pune Expressway.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2017
+  },
+  {
+    "name": "Kandiboina Raghupathi",
+    "dissertation_title": "Effect of Traffic Calming Measures on Urban Streets using Driving Simulator.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2017
+  },
+  {
+    "name": "Preeti",
+    "dissertation_title": "Risk Analysis of Public Private Partnership in Metro Rail Projects using Fuzzy Logic Model.",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2017
+  },
+  {
+    "name": "Sai Ram Goud Nadikuda",
+    "dissertation_title": "Retrofitting of Conventional Interchange with Single Point Urban Interchange.",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2017
+  },
+  {
+    "name": "Ali Danesh",
+    "dissertation_title": "Factors Affecting Users in Choosing Between Ridesourcing and Informal IPT",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2018
+  },
+  {
+    "name": "Navneet Singh Tanwar",
+    "dissertation_title": "Integration of Air Travel Demand Model with Regional Travel Demand Model.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2018
+  },
+  {
+    "name": "Kalyanpad Nitish Govindrao",
+    "dissertation_title": "Mode Choice Analysis in a New Transit Scenario.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2018
+  },
+  {
+    "name": "Anu Sachan",
+    "dissertation_title": "Integrated Multimodal Transit Route Network Design with Feeder Systems.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2018
+  },
+  {
+    "name": "Kritika Saini",
+    "dissertation_title": "Development of U-Turn Adjustment Factor of Signalized Intersection and Simulation of U-Turn Movement in VISSIM.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2018
+  },
+  {
+    "name": "Jatin Jain",
+    "dissertation_title": "Truck Trip Generation and Container Logistics : A Case Study of Jawaharlal Nehru Port.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2018
+  },
+  {
+    "name": "Kummari Murali",
+    "dissertation_title": "Intercity Travel Demand Modelling : Trip Generation and Mode Choice.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2018
+  },
+  {
+    "name": "Henok Gadissa Guta",
+    "dissertation_title": "Shape Characteristic and Performance Comparison of Asphalt Mixes Containing Crushed Gravels.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2018
+  },
+  {
+    "name": "Madhav Kaushal",
+    "dissertation_title": "Modelling the Accident Risk of the Drivers.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2018
+  },
+  {
+    "name": "Sarthak Shrivastava",
+    "dissertation_title": "Effect of Traffic Control Devices on Driver Behavior at Horizontal Curves.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2018
+  },
+  {
+    "name": "Yared Bitew Kebede",
+    "dissertation_title": "Assessing and Quantifying of Traffic Congestion at Signalised Intersection.",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2018
+  },
+  {
+    "name": "Asmelash Kahsay Abraha",
+    "dissertation_title": "Modelling Driver Deceleration Behavior on Horizontal Curve Using Data from Driving Simulator.",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2018
+  },
+  {
+    "name": "Yewale Akash Dilip",
+    "dissertation_title": "Assessing the Impact Of Mumbai-Ahmedabad High Speed Rail in Terms of Quality Of Life Parameters.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2019
+  },
+  {
+    "name": "Chintawar Soham Satish",
+    "dissertation_title": "Assessing Impact of Taxi Aggregators on Choice of Transport Mode.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2019
+  },
+  {
+    "name": "Mohammed Azharuddin G D",
+    "dissertation_title": "Laboratory Performance Evaluation of Cold Pothole Patching Material.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2019
+  },
+  {
+    "name": "Kondalwade Ashish Vijay",
+    "dissertation_title": "Effects of Crumb Rubber Particle Size on Workability and Mechanical Properties of Gap Graded Rubberised Bituminous Mixes.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2019
+  },
+  {
+    "name": "Rashmeet Kaur Khanuja",
+    "dissertation_title": "Analyzing Driver Behavior Under Time Pressure: A Driving Simulator Study.",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2019
+  },
+  {
+    "name": "Paithankar Priyanka Vilas",
+    "dissertation_title": "Arrival Delay Modeling and Reliability Analysis of Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2019
+  },
+  {
+    "name": "Shubhankar Tiwari",
+    "dissertation_title": "Understanding the Pedestrian Dynamics for Different Width of Undivided Stairways.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2019
+  },
+  {
+    "name": "Shah Harsh Girishkumar",
+    "dissertation_title": "Development of Dynamic Traffic Assignment (DTA) Model for Navi Mumbai Region Using CUBE AVENUE.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2019
+  },
+  {
+    "name": "Bharat Kumar Bhadrecha",
+    "dissertation_title": "Modelling Overtaking Distance for Two-lane Rural Highways",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2019
+  },
+  {
+    "name": "Alok Jain",
+    "dissertation_title": "Evaluation of Blending Efficiency of Reclaimed Asphalt Pavement in Bituminous Mixes",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2020
+  },
+  {
+    "name": "Amar Kant Jaiswal",
+    "dissertation_title": "Evaluating Performance of Stabilized Base Mix with Different Additives",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2020
+  },
+  {
+    "name": "Ashith Marath P P",
+    "dissertation_title": "Understanding Effects of Interaction of Fillers on Performance of Rich Asphalt Mastic",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2020
+  },
+  {
+    "name": "Shivendra Kumar Shailendra",
+    "dissertation_title": "Hazard-based Model of Overtaking Duration & Distance",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2020
+  },
+  {
+    "name": "Rajesh Karel",
+    "dissertation_title": "Development of Pavement Performance Model using LTPP Data for Similar Indian Regions",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2020
+  },
+  {
+    "name": "Mayank Bansal",
+    "dissertation_title": "Assessment of Factors Influencing the Ridership of a Mass Transit System",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2020
+  },
+  {
+    "name": "Monimoy Paul",
+    "dissertation_title": "Impact of Fare Changes on Transit Ridership: A Case Study of Bus Transit System in Mumbai",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2020
+  },
+  {
+    "name": "Avani Aravind",
+    "dissertation_title": "Pedestrian Crowd Behaviour at Urban Railway Station Using Microsimulation Study",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2020
+  },
+  {
+    "name": "Manish Yadav",
+    "dissertation_title": "Understanding Spatiotemporal Growth and Restructuring Pattern of Urban Area using Satellite Images for Mumbai Metropolitan Region",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2020
+  },
+  {
+    "name": "Mulani Asim Tajuddin",
+    "dissertation_title": "Consumers response towards Online Shopping and Last Mile Logistics Service",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2020
+  },
+  {
+    "name": "Bilwal Abhishek Kamjibhai",
+    "dissertation_title": "Study of the Emerging Public Bicycle sharing System in India",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2020
+  },
+  {
+    "name": "Maurya Vinay Deepchand",
+    "dissertation_title": "Mapping public transport accessibility levels (PTAL) of Mumbai Metro Line-1 (Versova-Ghatkopar)",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2020
+  },
+  {
+    "name": "Akhil Johnson K.",
+    "dissertation_title": "Subsidised fare structure for Public Transport through Congestion Pricing: A case study of Mumbai",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2021
+  },
+  {
+    "name": "Melna Jose",
+    "dissertation_title": "Influence of Accessibility and Connectivity of Stations on Transit Demand – A Case Study on Hinjewadi Metro",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2021
+  },
+  {
+    "name": "Shanaraj V K",
+    "dissertation_title": "Quality Of Life Implications of Transit Infrastructure Improvements in Mumbai Metropolitan Region",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2021
+  },
+  {
+    "name": "Athul P",
+    "dissertation_title": "Spatio-Temporal Analyses of Community Mobility Patterns During Pandemic Lockdown in India",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2021
+  },
+  {
+    "name": "Dhore Rutuja Avinash",
+    "dissertation_title": "Impact of COVID-19 pan-India lockdown on consumers purchasing essential commodities",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2021
+  },
+  {
+    "name": "Buddhadev Jay Dharmeshbhai",
+    "dissertation_title": "Analysis and modeling of helmet usage behaviour and development of safer road user behaviour index",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2021
+  },
+  {
+    "name": "C Hemanth Kumar",
+    "dissertation_title": "Calibration of traffic simulation model and its applications for effective traffic Management measures suitable for Indian conditions.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2021
+  },
+  {
+    "name": "Sakhare Ashwin Rajendra",
+    "dissertation_title": "Role of Travel Well-Being in Transport Planning Policies",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2021
+  },
+  {
+    "name": "Mohit Tyagi",
+    "dissertation_title": "Performance Evaluation of Rich Bottom Mix for Design of Perpetual Bituminous Pavements.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2021
+  },
+  {
+    "name": "Vaishnavi Anand Koli",
+    "dissertation_title": "Evaluation of Rutting Performance of Polymer Modified Bitumen under Different Loading and Stress Conditions",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2021
+  },
+  {
+    "name": "Jitendra Singh",
+    "dissertation_title": "Mechanical Characterization of Cementitious Stabilized Layers for Pavement Application",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2021
+  },
+  {
+    "name": "Vinita Mehar",
+    "dissertation_title": "Structural Equation Modelling for Overtaking Strategies on Two-lane Undivided Roadways",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2021
+  },
+  {
+    "name": "Moti Chavan",
+    "dissertation_title": "Modelling Vehicle Stability Based on Driving Performance Measures",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2021
+  },
+  {
+    "name": "Akshay Kulkarni",
+    "dissertation_title": "Study of Operational Characteristics of Urban Corridors.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2022
+  },
+  {
+    "name": "Rohit Kumar",
+    "dissertation_title": "Evaluation of pedestrians and bicylists safety at unsignalized intersections.",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2022
+  },
+  {
+    "name": "Tushar Agarwal",
+    "dissertation_title": "Modeling user choices relating to Electric two-wheeler.",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2022
+  },
+  {
+    "name": "Jagdish Dangi",
+    "dissertation_title": "Evaluation of Cracking Potential of Bituminous Mixtures using Simple Performance Tests.",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2022
+  },
+  {
+    "name": "Visharad",
+    "dissertation_title": "Exploring urban travel pattern and vehicle ownership in Navi Mumbai, India.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2022
+  },
+  {
+    "name": "Rohan Ashok Nyayadhish",
+    "dissertation_title": "Modelling Freight Generation using monthly expenses of Indian Households.",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2022
+  },
+  {
+    "name": "Kumari Prerna Mallik",
+    "dissertation_title": "Understanding the Compactibility and Rutting Performance of Marshall Designed Bituminous Mixes using Superpave Gyratory Compactor (SGC)",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2023
+  },
+  {
+    "name": "Shadab Akhtar",
+    "dissertation_title": "Augmentation of Transit Network in Metropolitan Area to Increase Ridership",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2023
+  },
+  {
+    "name": "Desai Akshay Vijay",
+    "dissertation_title": "Freight Demand Modeling and Landside Accessibility Study for New Mangalore Port",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2023
+  },
+  {
+    "name": "Rabbewar Gopal Laxmanrao",
+    "dissertation_title": "Freight Generation Modelling Using Monthly Expenses of Indian Households",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2023
+  },
+  {
+    "name": "Keshav Prakash",
+    "dissertation_title": "Emotion and Driving: Exploring the Influence of Emotional Stimuli on Decision Making",
+    "supervisor": "Prof. Nagendra Rao Velaga / Prof. Ark Verma, IIT Kanpur",
+    "year": 2023
+  },
+  {
+    "name": "Pranaya Patel",
+    "dissertation_title": "Analyzing Risk Factors Influencing Crashes On National Highways with Crash Prediction Models",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2023
+  },
+  {
+    "name": "Uttam Singh",
+    "dissertation_title": "Driver Behaviour Recognition and Identifying Hotspots",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2023
+  },
+  {
+    "name": "Aohona Arefin",
+    "dissertation_title": "Perception of Crowding in Public Buses of Mumbai region.",
+    "supervisor": "Prof. Avijit Maji",
+    "year": 2023
+  },
+  {
+    "name": "Jaiswal Himanshu Pravin",
+    "dissertation_title": "Development of Predictive Model for Resilient Modulus of Bituminous Mixes using Indirect Tensile Strength",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2023
+  },
+  {
+    "name": "Ankit Pandey",
+    "dissertation_title": "ANALYSIS OF PEDESTRIAN FLOW AND DETERMINATION OF LOS OF PEDESTRIAN FACILITIES AT RAILWAY STATION",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2023
+  },
+  {
+    "name": "Riya Mishra",
+    "dissertation_title": "Public acceptance of increased penalties for violation of traffic laws",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2024
+  },
+  {
+    "name": "Amit",
+    "dissertation_title": "Impact of Last Mile Connectivity on Mass Transit Ridership Enhancement: A case study of Pune",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2024
+  },
+  {
+    "name": "Sachin Gupta",
+    "dissertation_title": "Analysis of School Children's Perceptions on Road Safety Knowledge, Crossing Behavior, and Traffic Injury in School Zones",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2024
+  },
+  {
+    "name": "Rishav Kumar",
+    "dissertation_title": "Behavioral Analysis of Pedestrian Crossing at Signalized Intersections in Urban Area",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2024
+  },
+  {
+    "name": "Monu Kumar Thakur",
+    "dissertation_title": "ENHANCING THE PERFORMANCE OF SUSTAINABLE PAVEMENT QUALITY MIXTURES THROUGH THE INCORPORATION OF RECYCLED STEEL FIBERS FROM SCRAP TYRES",
+    "supervisor": "Prof. Solomon Debbarma",
+    "year": 2024
+  },
+  {
+    "name": "Rohan Ileyas",
+    "dissertation_title": "Performance and Long-Term Durability of Domestic and Imported VG40 Grade Bitumen",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2024
+  },
+  {
+    "name": "Irfan Ali",
+    "dissertation_title": "BALANCED MIX DESIGN FOR COLD RECYCLED MIXTURES",
+    "supervisor": "Prof. Dharamveer Singh",
+    "year": 2024
+  },
+  {
+    "name": "Khan Gazanfar Ali Ateeque Ur Rehman",
+    "dissertation_title": "Risk Analysis of Unmanned Aerial Systems",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2024
+  },
+  {
+    "name": "Ashish Sagar",
+    "dissertation_title": "Vehicle Detection, Tracking and Classification Using Video Image Processing: A Study in Heterogenous Traffic Conditions",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2024
+  },
+  {
+    "name": "Satish Patel",
+    "dissertation_title": "Exploring Road Safety Compliance and Risky Behaviour Analysis of Delivery Riders using Structural Equation Model",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2024
+  },
+  {
+    "name": "Karmakar Akash Chaitanya",
+    "dissertation_title": "Evaluation Accident Blackspots on NH48 from State To Pune : Identification, Analysis and Prioritization.",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2024
+  },
+  {
+    "name": "Sujit Narayan Singh",
+    "dissertation_title": "Visual Crack Detection of Concrete Pavement Based on Deep Learning",
+    "supervisor": "Prof. Solomon Debbarma",
+    "year": 2024
+  },
+  {
+    "name": "Prasad Kshitiz Vinaykumar",
+    "dissertation_title": "Evaluating Factors and Implementing Strategies to Maximize Metro Utilization: A Case Study of Mumbai Metropolitan Region",
+    "supervisor": "Prof. Kurra Venkata Krishna Rao",
+    "year": 2025
+  },
+  {
+    "name": "Girase Manjitsinh Indrasinh",
+    "dissertation_title": "Crash Frequency Modelling at Urban Signalized Intersection Approaches",
+    "supervisor": "Prof. Perumal Vedagiri",
+    "year": 2025
+  },
+  {
+    "name": "Ravi Shankar",
+    "dissertation_title": "Factors Influencing Risky Driving in Heavy Vehicle Drivers: The Role of Personality, Stress, and Traffic Penalty Enforcement",
+    "supervisor": "Prof. Nagendra Rao Velaga",
+    "year": 2025
+  },
+  {
+    "name": "Meshram Suvijay Jayant",
+    "dissertation_title": "Impact Assessment of East-West connectivity project by MMRDA on Mumbai Port Operations and Surrounding Traffic",
+    "supervisor": "Prof. Gopal Ramachandra Patil",
+    "year": 2025
+  },
+  {
+    "name": "Aditya Verma",
+    "dissertation_title": "Optimizing Mode Choice Stated Preference Experiment Designs in Pune Using Revealed Preference-Based Sociodemographic Insights",
+    "supervisor": "Prof. Tom V. Mathew",
+    "year": 2025
+  },
+  {
+    "name": "Aman Choudhary",
+    "dissertation_title": "Performance Evaluation of Alkali-Activated Mortar Incorporating Fly Ash and Red Mud",
+    "supervisor": "Prof. Solomon Debbarma",
+    "year": 2025
+  }
+]
