@@ -43,9 +43,9 @@ img {
     transition: opacity 0.3s ease-in;
 }
 
-img[loading="lazy"] {
+/* img[loading="lazy"] {
     opacity: 0;
-}
+} */
 
 img[loading="lazy"].loaded,
 img[loading="eager"] {
@@ -230,7 +230,7 @@ img[loading="eager"] {
 .hero {
     position: relative;
     height: 70vh;
-    width: 100%;
+    width: 80%;
     max-width: 1400px;
     min-height: 500px;
     overflow: hidden;
@@ -642,34 +642,17 @@ img[loading="eager"] {
 }
 
 .faculty-avatar {
-    width: 96px;
-    height: 96px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
     box-shadow: 0 6px 18px rgba(10,30,60,0.06);
 }
 
-.faculty-avatar img { width:100%; height:100%; object-fit:cover; display:block; }
+.faculty-avatar img { width:100%; height:100%; object-fit:fill; display:block; }
 
 /* Special styling for Prof. K V Krishna Rao: square, fitted, and centered */
-.kvkrao-card .faculty-avatar {
-    width: 110px; /* slightly larger square */
-    height: 110px;
-    border-radius: 8px; /* keep subtle rounding, not circular */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-right: 0.75rem;
-}
-
-.kvkrao-card .faculty-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* ensure the image fills the square */
-    display: block;
-}
 
 .faculty-info h3 { font-size: 1.02rem; margin: 0 0 0.12rem 0; color: var(--dark-blue); font-weight:700; }
 .faculty-position { color: var(--primary-blue); font-weight:600; margin-bottom:0.2rem; font-size:0.92rem; }
@@ -697,8 +680,8 @@ img[loading="eager"] {
 }
 
 .faculty-grid.vertical-list .faculty-avatar {
-    width: 130px; /* make avatars larger and square */
-    height: 130px;
+    width: 150px; /* make avatars larger and square */
+    height: 150px;
     border-radius: 8px; /* subtle rounding */
     margin: 0 auto 0.6rem; /* center avatar horizontally and add spacing */
     display: block;
@@ -1859,9 +1842,9 @@ img {
     transition: opacity 0.3s ease;
 }
 
-img[loading="lazy"] {
+/* img[loading="lazy"] {
     opacity: 0;
-}
+} */
 
 img[loading="lazy"].loaded {
     opacity: 1;
