@@ -2844,3 +2844,216 @@ a, button, .card, .news-list-item, .about-card, .spotlight-card {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Lab Facilities Styles */
+.lab-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0 2rem;
+    flex-wrap: wrap;
+}
+
+.lab-tab {
+    padding: 1rem 2rem;
+    background: var(--white);
+    border: 2px solid var(--border-color);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lab-tab:hover {
+    border-color: var(--secondary-blue);
+    color: var(--secondary-blue);
+    transform: translateY(-2px);
+}
+
+.lab-tab.active {
+    background: var(--gradient);
+    color: var(--white);
+    border-color: transparent;
+}
+
+.instruments-container {
+    margin-top: 2rem;
+}
+
+.category-section {
+    margin-bottom: 3rem;
+}
+
+.category-toggle {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.category-toggle:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.category-toggle:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.category-toggle:hover .category-title {
+    color: var(--secondary-blue);
+}
+
+.category-toggle:hover {
+    padding-left: 0.5rem;
+}
+
+.category-title {
+    font-size: 1.8rem;
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--secondary-blue);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    transition: color 0.3s ease;
+}
+
+.toggle-icon {
+    font-size: 1.4rem;
+    transition: transform 0.3s ease;
+}
+
+.category-instruments {
+    transition: all 0.3s ease;
+}
+
+.category-section {
+    margin-bottom: 3rem;
+}
+
+.instrument-card {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    gap: 2rem;
+    background: var(--white);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+    align-items: start;
+}
+
+.instrument-card:hover {
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-3px);
+}
+
+.instrument-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    background: var(--light-gray);
+}
+
+.instrument-image-placeholder {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light-blue);
+    border-radius: 0.5rem;
+    color: var(--primary-blue);
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.instrument-details-left,
+.instrument-details-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.instrument-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.detail-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.detail-value {
+    font-size: 1rem;
+    color: var(--text-dark);
+    line-height: 1.5;
+}
+
+/* Responsive Design for Instrument Cards */
+@media (max-width: 1200px) {
+    .instrument-card {
+        grid-template-columns: 250px 1fr 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .instrument-card {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .instrument-image,
+    .instrument-image-placeholder {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lab-tabs {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .lab-tab {
+        width: 100%;
+        padding: 0.75rem 1.5rem;
+    }
+    
+    .category-title {
+        font-size: 1.5rem;
+    }
+    
+    .instrument-name {
+        font-size: 1.2rem;
+    }
+}

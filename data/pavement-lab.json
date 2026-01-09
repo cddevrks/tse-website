@@ -1,0 +1,349 @@
+{
+  "labName": "Pavement Lab",
+  "categories": [
+    {
+      "categoryName": "Binder-Level Tests",
+      "instruments": [
+        {
+          "name": "Dynamic Shear Rheometer",
+          "studentAssigned": "Prakhar",
+          "modelNumber": "MCR Smart Pave 102e",
+          "manufacturer": "Anton Par",
+          "description": "The Dynamic Shear Rheometer (DSR) measures the viscoelastic properties of bituminous binders over a range of temperatures and loading frequencies. It determines the complex shear modulus (G*) and phase angle (δ) used to evaluate rutting and fatigue characteristics as per Superpave specifications.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Evaluation of binder rheological properties, rutting and fatigue performance, and determination of PG grading parameters",
+          "imageUrl": "https://drive.google.com/file/d/1kVe_EkgzxzBmTiE3tp2ugi2BH-xycrHu/view?usp=sharing"
+        },
+        {
+          "name": "Bending Beam Rheometer",
+          "studentAssigned": "Prakhar",
+          "modelNumber": "B216",
+          "manufacturer": "Pavetest",
+          "description": "BBR measures flexural creep stiffness and m-value of asphalt binders at low temperatures to assess thermal cracking susceptibility. It simulates binder performance under cold climatic conditions by applying a constant load on a rectangular beam submerged in a controlled temperature bath.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Determination of low-temperature creep stiffness and stress relaxation parameters for PG grading",
+          "imageUrl": "https://drive.google.com/file/d/1PYTBRX8Q-q8M0rAfHfDw0K5TOcBfmBwI/view?usp=sharing"
+        },
+        {
+          "name": "Softening Point",
+          "studentAssigned": "Praveen BL",
+          "modelNumber": "B1-PV0144",
+          "manufacturer": "Controls",
+          "description": "Determines the temperature at which bitumen transitions from a semi-solid to a liquid state. This temperature reflects the binder's thermal stability and resistance to flow under elevated temperatures",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Assessing binder consistency, temperature susceptibility, and suitability for high-temperature applications",
+          "imageUrl": "https://drive.google.com/file/d/1OAyF9nBgrtix7DcULzY7BNjfyQVxFjZX/view?usp=sharing"
+        },
+        {
+          "name": "Fully Automatic Penetrometer",
+          "studentAssigned": "Praveen BL",
+          "modelNumber": "81-PV0103",
+          "manufacturer": "Controls",
+          "description": "Penetration Test measures the depth (in tenths of a millimeter) to which a standard needle penetrates a bituminous sample",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Determining binder consistency and hardness for classification",
+          "imageUrl": "https://drive.google.com/file/d/11oSrx7NABuv6s0Y8REt1tgvwqv2VELtP/view?usp=sharing"
+        },
+        {
+          "name": "Rotational Viscosity Test",
+          "studentAssigned": "Prakhar",
+          "modelNumber": "HADV-II+PRO",
+          "manufacturer": "Brookfeild",
+          "description": "Rotational Viscometer measures the viscosity of bituminous binders at mixing and compaction temperatures. It determines the workability and temperature susceptibility of asphalt binders",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Determining viscosity-temperature relationship for binder handling, mixing, and compaction in HMA production.",
+          "imageUrl": "https://drive.google.com/file/d/1iW3cQ29NFJlI-svbOBEzAgkgLbKIYgVQ/view?usp=sharing"
+        },
+        {
+          "name": "Absolute Viscosity Test",
+          "studentAssigned": "Prakhar",
+          "modelNumber": "PSL Rheotek 2",
+          "manufacturer": "Cannon",
+          "description": "Absolute Viscosity Test uses a vacuum capillary viscometer to determine the dynamic viscosity of bitumen at 60°C.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Quantifying binder stiffness and flow characteristics for viscosity-grade classification and quality control.",
+          "imageUrl": "https://drive.google.com/file/d/1hMLVUu_g0F1llQTAw61g1w5vhJvwfsvv/view?usp=sharing"
+        },
+        {
+          "name": "Surface free energy test",
+          "studentAssigned": "Sonali mam",
+          "modelNumber": "DSA25E",
+          "manufacturer": "Kruss",
+          "description": "Surface Free Energy (SFE) test evaluates the adhesive and cohesive characteristics of asphalt binders using contact angle measurements. The sessile drop method quantifies surface energy components to assess binder–aggregate compatibility",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Assessing adhesion between binder and aggregate; evaluating stripping potential and moisture damage resistance",
+          "imageUrl": "https://drive.google.com/file/d/1V8XcWP4dsTCdyCvaYEbBLuIMakq02Gah/view?usp=sharing"
+        },
+        {
+          "name": "Rolling Thin Film Oven",
+          "studentAssigned": "Prakhar",
+          "modelNumber": "RTF 325-B",
+          "manufacturer": "James Cox & Sons Inc.",
+          "description": "RTFO simulates short-term aging of asphalt binders during hot-mix production. It exposes thin films of bitumen to heat and air flow",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Simulating short-term oxidative aging for binder property evaluation",
+          "imageUrl": "https://drive.google.com/file/d/1-iBfVOKcWmhKC7v0tXNRxFRpfPcwRrga/view?usp=sharing"
+        },
+        {
+          "name": "Pressure Aging Vessel",
+          "studentAssigned": "Prakhar",
+          "modelNumber": "9500 PAV",
+          "manufacturer": "Prentex",
+          "description": "PAV simulates long-term oxidative aging of asphalt binders to replicate field aging over several years. It subjects RTFO-aged samples to elevated temperature and pressure",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Evaluation of long-term aging effects for binder durability",
+          "imageUrl": "https://drive.google.com/file/d/1IBSoA3FVpkpwoL4njskJEuD3KpICYtR_/view?usp=sharing"
+        },
+        {
+          "name": "Ductility Test",
+          "studentAssigned": "Praveen BL",
+          "modelNumber": "-",
+          "manufacturer": "M/s. Controls P.L",
+          "description": "Ductility Test measures the distance a bituminous sample can stretch before breaking under controlled conditions (usually 25 °C and 5 cm/min). It assesses the binder's flexibility and crack resistance.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Evaluating binder elongation capacity and tensile strain tolerance at intermediate service temperatures.",
+          "imageUrl": "https://drive.google.com/file/d/1GAToLIGKmLDWXvIpiW0qCtamC0r_TmQI/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Mix-Level Tests",
+      "instruments": [
+        {
+          "name": "Superpave Gyratory Compactor",
+          "studentAssigned": "Akash sir/ Shivam",
+          "modelNumber": "B045 Gyromec",
+          "manufacturer": "Matest",
+          "description": "Superpave Gyratory Compactor is used to compact asphalt mixtures under controlled pressure, angle, and gyration rate to simulate field compaction.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Compaction of asphalt specimens for Superpave mix design and performance evaluation",
+          "imageUrl": "https://drive.google.com/file/d/1fCcVHisNi6EGHdmj0SsNOCngbyVNjcDQ/view?usp=sharing"
+        },
+        {
+          "name": "Marshall Compactor",
+          "studentAssigned": "Akash sir/ Shivam",
+          "modelNumber": "B035-01N",
+          "manufacturer": "Matest",
+          "description": "Marshall Compactor prepares cylindrical asphalt specimens by applying a specified number of blows to each side using a standard hammer. It is used in the Marshall mix design method",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Preparation of asphalt specimens",
+          "imageUrl": "https://drive.google.com/file/d/1RTBkM58u8ayPF_M54gdzBIad1y3PcGm9/view?usp=sharing"
+        },
+        {
+          "name": "CoreLok",
+          "studentAssigned": "Tanay",
+          "modelNumber": "InstroTek-I225-96",
+          "manufacturer": "Instrotek",
+          "description": "The CoreLok system is a vacuum chamber that is used with specially designed polymer bags to completely seal field and laboratory asphalt samples from water during the specific gravity measurements.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "This device can be used for determination of bulk gravity of compacted asphalt samples, maximum gravity of loose asphalt samples, porosity or permeability of compacted field or laboratory samples, and gravity and absorption of fine and coarse aggregates.",
+          "imageUrl": "https://drive.google.com/file/d/1rGQheaQEZd5cJT54cvZDwJZqCRS1GRFs/view?usp=sharing"
+        },
+        {
+          "name": "Auto Rice Apparatus (Gmm)",
+          "studentAssigned": "Praveen BL",
+          "modelNumber": "U.S. Patent 10,215,678",
+          "manufacturer": "Instrotek",
+          "description": "The AutoRice is an automatic control unit designed to improve accuracy and repeatability of the maximum specific gravity test (AASHTO T-209, Rice Test/Gmm) for asphalt mixtures.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "The Gmm is used to calculate the percent air voids or relative density (Gmb), which is critical for mixture design, pavement quality control and laboratory mixture performance testing.",
+          "imageUrl": "https://drive.google.com/file/d/1HHutX42BcGkDKsE9m1hq-ANAr5Yi01eD/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Performance Tests",
+      "instruments": [
+        {
+          "name": "Asphalt Mixture Performance Tester (AMPT)",
+          "studentAssigned": "Sai",
+          "modelNumber": "0002-4400",
+          "manufacturer": "Control Pvt. Ltd.",
+          "description": "The Asphalt Mixture Performance Tester (AMPT) was used for the determination of mixture performance under dynamic and static conditions at varying temperatures.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "AMPT was used for the determination of mixture performance in terms of cracking and rutting under dynamic and static conditions at varying temperatures. It is also used for the determination modulus (Resilient and Dynamic Modulus) of the hot/cold mix asphalt.",
+          "imageUrl": "https://drive.google.com/file/d/1V3lUuZ3MO3-bUSWLcL6MzDpt_AzkzmI1/view?usp=sharing"
+        },
+        {
+          "name": "Hamburg Wheel Tracking Test",
+          "studentAssigned": "Akash sir/ Shivam",
+          "modelNumber": "78-PV33B05",
+          "manufacturer": "Controls",
+          "description": "Measures the rutting and moisture susceptibility of asphalt mixtures under repeated loading of a steel wheel",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Evaluating rutting resistance and stripping potential of asphalt mixtures.",
+          "imageUrl": "https://drive.google.com/file/d/1ovzpJjj6iLcnkkwUPl-UG8ne3rf2AFp_/view?usp=sharing"
+        },
+        {
+          "name": "Universal Testing Machine",
+          "studentAssigned": "Sai",
+          "modelNumber": "Testing Setup- B220P112 Pnumatic Controler- B270-12",
+          "manufacturer": "Matest (Pavetest)",
+          "description": "Universal Testing Machine (UTM) was used for the determination of mixture performance and for the determination of the modulus of the asphalt mixture.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Universal Testing Machine (UTM) was used for the determination of mixture performance in terms of cracking, rutting and for the determination of the modulus (Resilient modulus) of the asphalt mixture.",
+          "imageUrl": "https://drive.google.com/file/d/1dTfmXHh-l1IK8JMdsJG3d54Y1FY9oLTs/view?usp=sharing"
+        },
+        {
+          "name": "Wirtgen Laboratory Foamed Bitumen Plant",
+          "studentAssigned": "Sai",
+          "modelNumber": "02SA0196",
+          "manufacturer": "Wirtgen",
+          "description": "The Wirtgen Laboratory Foamed Bitumen Plant is used for the generation of foamed bitumen.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "The Wirtgen Laboratory Foamed Bitumen Plant is used for the generation of foamed bitumen, which will be helpful for the preparation of cold recycled mixes.",
+          "imageUrl": "https://drive.google.com/file/d/1a5b9EZy2AzysYlbDhWVnoz53HDkzceS1/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Aggregate Tests",
+      "instruments": [
+        {
+          "name": "Aggregate Impact Value Test",
+          "studentAssigned": "Azhar sir",
+          "modelNumber": "-",
+          "manufacturer": "M/s. Lawrence & Mayo Pvt. Ltd. Bombay",
+          "description": "AIV test determines the aggregate's resistance to sudden impact or shock by measuring the percentage of fines generated after a series of hammer blows",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Assessing aggregate toughness and suitability for pavement construction.",
+          "imageUrl": "https://drive.google.com/file/d/1Ms8VuM7aq_Dn7VIYvhRk4WBSKF1puRm-/view?usp=drive_link"
+        },
+        {
+          "name": "Aggregate Image Measurement System",
+          "studentAssigned": "Prakhar / Sonali mam",
+          "modelNumber": "-",
+          "manufacturer": "PINE Instrument Company",
+          "description": "Aggregate Image Measurement System (AIMS) is an advanced optical device used to automatically quantify aggregate shape characteristics, including angularity, texture, sphericity, and flatness. It utilizes digital image processing and laser-based 3D surface scanning to evaluate both coarse and fine aggregates.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Determining aggregate shape and surface characteristics",
+          "imageUrl": "https://drive.google.com/file/d/1OGAf0Si-DnRv0D_b04kMp0O6l7SAMAJA/view?usp=sharing"
+        },
+        {
+          "name": "Polished Stone Value Test",
+          "studentAssigned": "Akant",
+          "modelNumber": "-",
+          "manufacturer": "M/s. ELE/International Ltd.",
+          "description": "Polished Stone Value (PSV) test measures the resistance of aggregates to polishing under simulated traffic conditions using the accelerated polishing machine.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Evaluating aggregate skid resistance and surface friction properties for pavement safety.",
+          "imageUrl": "https://drive.google.com/file/d/1gJQ8iPhX-CaKQGbWLBEh3rAs15IOxswD/view?usp=drivesdk"
+        },
+        {
+          "name": "British Pendulum Skid Resistance Test",
+          "studentAssigned": "Azhar sir",
+          "modelNumber": "SRT1090",
+          "manufacturer": "Stanlay",
+          "description": "British Pendulum Tester measures the skid resistance or frictional properties of aggregates and pavement surfaces. A rubber slider attached to a swinging arm is released from a fixed height, and the energy loss due to surface friction is measured on a calibrated scale.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Evaluating skid resistance and surface friction characteristics of aggregates, asphalt, and concrete pavements",
+          "imageUrl": "https://drive.google.com/file/d/1trYqEdzcVkBaya6zr2zVzkUDtHaltGmC/view?usp=drive_link"
+        },
+        {
+          "name": "Micro-Deval Abrasion Test",
+          "studentAssigned": "Shashank/Gowhar sir",
+          "modelNumber": "800.444.1508 740.548.7298",
+          "manufacturer": "Gilson Company, Inc.",
+          "description": "The Micro-Deval apparatus is a modern, safety-enhanced testing machine designed to evaluate the abrasion resistance and durability of fine and coarse mineral aggregates under wet grinding conditions. Its objective is to accurately determine aggregate quality by measuring the percentage loss after the sample is rotated with a stainless-steel abrasive charge and water for a specified duration or a specified number of revolutions",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "It is used to assess the resistance of aggregates to abrasion and wear under wet conditions",
+          "imageUrl": "https://drive.google.com/file/d/1upDAbh5lcoyNXSOuV9YPa3ZuptbfCd3v/view?usp=drive_link"
+        },
+        {
+          "name": "Cohesion Test",
+          "studentAssigned": "Shashank/Gowhar sir",
+          "modelNumber": "CT-24-01",
+          "manufacturer": "Infratest",
+          "description": "The cohesion tester is used to evaluate the development of set and early-age strength in slurry surfacing and microsurfacing. By measuring torque required to shear a prepared specimen at defined intervals, the device provides a quantitative indication of the mixture's ability to resist mechanical disturbance during the curing period.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "It is used to evaluate the early strength and set time of microsurfacing mixes to determine when the surface can be opened to traffic",
+          "imageUrl": "https://drive.google.com/file/d/1U6L01K0PLj23Fyl-vVQgDabXCieYfGq7/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "categoryName": "Field Tests",
+      "instruments": [
+        {
+          "name": "Light Weight Deflectometer",
+          "studentAssigned": "Azhar sir",
+          "modelNumber": "7651",
+          "manufacturer": "Zorn Instruments (Germany)",
+          "description": "Light Weight Deflectometer is a portable device used to measure the elastic modulus of pavement layers and subgrades by applying a dynamic load through a falling mass. It provides rapid, non-destructive assessment of layer stiffness in the field",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Field evaluation of subgrade and base stiffness for quality control and pavement design verification.",
+          "imageUrl": "https://drive.google.com/file/d/1ERQXNDEJDAuj24SfaUtrMCJoZYR_iK8a/view?usp=drive_link"
+        },
+        {
+          "name": "Dipstick Profiler",
+          "studentAssigned": "Tanay",
+          "modelNumber": "DIN-18202-2285",
+          "manufacturer": "FACE Construction Technologies",
+          "description": "Dipstick Profiler is a precision digital level used to measure pavement surface profile, smoothness, and flatness. It provides high-accuracy elevation data for determining the International Roughness Index (IRI) and surface deviations",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Measuring surface profiles, IRI, and longitudinal smoothness of pavement and concrete slabs.",
+          "imageUrl": "https://drive.google.com/file/d/1vqaYp6MP1ro1gdlv6smFgoTeBvcuSSLh/view?usp=sharing"
+        },
+        {
+          "name": "Dynamic Cone Penetrometer",
+          "studentAssigned": "Azhar sir",
+          "modelNumber": "800.444.1508/740.548.7298",
+          "manufacturer": "Gilson Company, Inc.",
+          "description": "Dynamic Cone Penetrometer determines the in-situ strength of subgrade and granular layers by measuring the penetration per blow of a standard cone driven by a falling hammer.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Field estimation of subgrade and base strength and compaction quality control.",
+          "imageUrl": "https://drive.google.com/file/d/1dlilKbhxZOGEeGRbTQazdEqwUEpEFmkm/view?usp=drive_link"
+        },
+        {
+          "name": "Non Nuclear Density Gauge",
+          "studentAssigned": "Azhar sir",
+          "modelNumber": "-",
+          "manufacturer": "Instrotek",
+          "description": "Non-Nuclear Density Gauge is a portable field device that determines the density of asphalt layers using dielectric properties instead of radiation sources. It provides a rapid and safe alternative to nuclear gauges.",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Determining in-situ density for compaction control of asphalt layers",
+          "imageUrl": "https://drive.google.com/file/d/1XqL3Fo2wyRjz_ViQ6HcLeWpvRh5hjXCR/view?usp=drive_link"
+        },
+        {
+          "name": "Benkelman Beam Deflection Test",
+          "studentAssigned": "Azhar sir",
+          "modelNumber": "-",
+          "manufacturer": "M/s ELE International Ltd.",
+          "description": "Benkelman Beam is used to measure rebound deflection of flexible pavements under a standard wheel load. It provides an indication of the structural capacity and helps in overlay design",
+          "safetyInstructions": "-",
+          "inCharge": "Prof. Dharamveer Singh",
+          "application": "Evaluation of pavement deflection and structural condition for maintenance and overlay design.",
+          "imageUrl": ""
+        }
+      ]
+    }
+  ]
+}
