@@ -26,6 +26,51 @@ function createInstrumentCard(instrument) {
              <p>Image Not Available</p>
            </div>`;
 
+  // Determine if this is a pavement lab instrument (has studentAssigned) or simulator lab (has userSafetyInstructions/mmdNumber)
+  const isPavementLab = instrument.hasOwnProperty("studentAssigned");
+
+  // Build the right column details based on lab type
+  let rightColumnHtml = `
+    <div class="detail-item">
+        <span class="detail-label">In-Charge</span>
+        <span class="detail-value">${
+          instrument.inCharge || "Not Specified"
+        }</span>
+    </div>
+  `;
+
+  if (isPavementLab) {
+    rightColumnHtml += `
+      <div class="detail-item">
+          <span class="detail-label">Student Assigned</span>
+          <span class="detail-value">${
+            instrument.studentAssigned || "N/A"
+          }</span>
+      </div>
+    `;
+  } else {
+    // Simulator lab specific fields
+    rightColumnHtml += `
+      <div class="detail-item">
+          <span class="detail-label">User Safety Instructions</span>
+          <span class="detail-value">${
+            instrument.userSafetyInstructions || "Not Specified"
+          }</span>
+      </div>
+      <div class="detail-item">
+          <span class="detail-label">MMD Number</span>
+          <span class="detail-value">${instrument.mmdNumber || "N/A"}</span>
+      </div>
+    `;
+  }
+
+  rightColumnHtml += `
+    <div class="detail-item">
+        <span class="detail-label">Application</span>
+        <span class="detail-value">${instrument.application}</span>
+    </div>
+  `;
+
   return `
         <div class="instrument-card fade-in">
             <div class="instrument-image-col">
@@ -56,22 +101,7 @@ function createInstrumentCard(instrument) {
             </div>
             
             <div class="instrument-details-right">
-                <div class="detail-item">
-                    <span class="detail-label">In-Charge</span>
-                    <span class="detail-value">${instrument.inCharge}</span>
-                </div>
-                
-                <div class="detail-item">
-                    <span class="detail-label">Student Assigned</span>
-                    <span class="detail-value">${
-                      instrument.studentAssigned || "N/A"
-                    }</span>
-                </div>
-                
-                <div class="detail-item">
-                    <span class="detail-label">Application</span>
-                    <span class="detail-value">${instrument.application}</span>
-                </div>
+                ${rightColumnHtml}
             </div>
         </div>
     `;
@@ -90,9 +120,8 @@ async function loadLabInstruments(labName) {
         dataFile = "../data/pavement-lab.json";
         break;
       case "simulator":
-        container.innerHTML =
-          '<div style="text-align: center; padding: 3rem;"><p style="font-size: 1.2rem; color: var(--text-light);">Simulator Lab data coming soon...</p></div>';
-        return;
+        dataFile = "../data/simulator-lab.json";
+        break;
       default:
         container.innerHTML =
           '<div style="text-align: center; padding: 3rem;"><p style="font-size: 1.2rem; color: var(--text-light);">Please select a lab</p></div>';

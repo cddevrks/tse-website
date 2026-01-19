@@ -1,0 +1,325 @@
+{
+  "labName": "Simulator Lab",
+  "categories": [
+    {
+      "categoryName": "Driving Simulation & Testing Equipment",
+      "instruments": [
+        {
+          "name": "Driving Simulator",
+          "modelNumber": "N/A",
+          "manufacturer": "Visioite Simulation & Training Pvt. Ltd.",
+          "description": "A system, ranging from desktop to full-sized vehicle bodies, used to recreate realistic driving scenarios.",
+          "userSafetyInstructions": "Not Specified",
+          "inCharge": "Not Specified",
+          "application": "Driver training, researching driver behavior, evaluating new vehicle designs (HMI), and traffic safety studies.",
+          "mmdNumber": "12357"
+        },
+        {
+          "name": "PTV VISSIM Pro with peripheral License",
+          "modelNumber": "N/A",
+          "manufacturer": "UNITRANS Mobility Solutions",
+          "description": "The world's leading microscopic traffic simulation software.",
+          "userSafetyInstructions": "Not Specified",
+          "inCharge": "Not Specified",
+          "application": "Modeling and optimizing traffic performance, simulating connected/autonomous vehicles, pedestrian flow, and evaluating transport infrastructure.",
+          "mmdNumber": "N/A"
+        }
+      ]
+    },
+    {
+      "categoryName": "Vision & Cognitive Assessment",
+      "instruments": [
+        {
+          "name": "Automated Driver Vision Scanner",
+          "modelNumber": "N/A",
+          "manufacturer": "Warwick Evans Optical Co. Ltd.",
+          "description": "Equipment for studying and scanning driver vision metrics.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Traffic and Transportation Engineering Lab; assessing driver safety, visual acuity, and contrast vision.",
+          "mmdNumber": "12354"
+        },
+        {
+          "name": "Driver Vision Screener Keystone",
+          "modelNumber": "N/A",
+          "manufacturer": "Warwick Evans Optical Co. Ltd.",
+          "description": "A non-invasive, portable, and reliable vision screener.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Early detection of visual dysfunctions, and preliminary eye exams in driving training institutes or occupational health settings.",
+          "mmdNumber": "12356"
+        },
+        {
+          "name": "Prismatic Field Glasses",
+          "modelNumber": "Optical observation length 160mm, width 120mm, height 55mm",
+          "manufacturer": "Unknown/Missing",
+          "description": "Field expansion glasses or optical elements used to shift a portion of the unseen field into the seeing field.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Assisting patients with acquired monocular vision (AMV) to decrease the risk of collision hazards in the blind field.",
+          "mmdNumber": "12367"
+        },
+        {
+          "name": "Electroencephalogram (EEG)",
+          "modelNumber": "N/A",
+          "manufacturer": "GENTECH Marketing & Distribution Pvt. Ltd.",
+          "description": "A test that measures and records the electrical activity of the brain using small sensors (electrodes) attached to the scalp.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Diagnosing and monitoring neurological conditions like epilepsy, sleep disorders, and studying cognitive load (e.g., driver behavior).",
+          "mmdNumber": "12364"
+        },
+        {
+          "name": "32 Channel Wearable EEG",
+          "modelNumber": "A530",
+          "manufacturer": "GENTECH Marketing & Distribution Pvt. Ltd.",
+          "description": "Portable Electroencephalogram system with 32 channels.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Driver behavior and cognitive load studies (Human Factors research).",
+          "mmdNumber": "12370"
+        }
+      ]
+    },
+    {
+      "categoryName": "Speed & Performance Measurement",
+      "instruments": [
+        {
+          "name": "Bushnell Speed Gun",
+          "modelNumber": "N/A",
+          "manufacturer": "Suhas Trading Corp.",
+          "description": "A simple, point-and-shoot radar gun that provides instantaneous speed measurements to a high degree of accuracy.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Speed measurement for vehicles and objects in research or field testing.",
+          "mmdNumber": "12368"
+        },
+        {
+          "name": "Laser Based Speed Measuring with Cam and Tripod",
+          "modelNumber": "Trucan LIT, Trucan 30/20",
+          "manufacturer": "Turbo Consulting Pvt. Ltd.",
+          "description": "A speed radar gun that uses digital technology to provide instantaneous speed measurements.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Traffic enforcement, speed measurement for sports and vehicle testing, and capturing photo/video evidence.",
+          "mmdNumber": "12361"
+        },
+        {
+          "name": "Radarguns",
+          "modelNumber": "101921",
+          "manufacturer": "Shreetech Instruments",
+          "description": "Speed measurement device.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Speed measurement for vehicles and objects in research or field testing.",
+          "mmdNumber": "N/A"
+        }
+      ]
+    },
+    {
+      "categoryName": "GPS & Vehicle Performance Testing",
+      "instruments": [
+        {
+          "name": "Racelogic Performance Box with Adapter",
+          "modelNumber": "N/A",
+          "manufacturer": "RaceLogic Limited. UK.",
+          "description": "A simple GPS data logger and display with a touch screen for performance testing, lap timing, and speed.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Vehicle performance testing (acceleration, deceleration, lap time) and high-accuracy digital speedometer functions.",
+          "mmdNumber": "N/A"
+        },
+        {
+          "name": "Racelogic Performance Box",
+          "modelNumber": "N/A",
+          "manufacturer": "RaceLogic Limited. UK.",
+          "description": "GPS data logger and display for performance testing.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Vehicle performance testing (acceleration, deceleration, lap time) and high-accuracy digital speedometer functions.",
+          "mmdNumber": "N/A"
+        },
+        {
+          "name": "Video VBOX Pro 10hz GPS, Data logging with VCL, 4 cam",
+          "modelNumber": "N/A",
+          "manufacturer": "RaceLogic Limited. UK.",
+          "description": "A 4-camera video and data logger, specifically the Video VBOX Pro model, designed for motorsport professionals and driving instructors.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Capturing video footage synchronized with high-accuracy GPS data (position, speed, lap timing) for performance analysis and driver instruction.",
+          "mmdNumber": "N/A"
+        },
+        {
+          "name": "VBOX Touch 25Hz",
+          "modelNumber": "N/A",
+          "manufacturer": "RaceLogic Limited. UK.",
+          "description": "A high-frequency (25 Hz) GPS data logger with a touch screen.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "High-accuracy performance testing, lap timing, and real-time speed display.",
+          "mmdNumber": "N/A"
+        },
+        {
+          "name": "VBOX Initial Measurement Unit",
+          "modelNumber": "N/A",
+          "manufacturer": "RaceLogic Limited. UK.",
+          "description": "A specialized Racelogic unit used for precise inertial and GPS measurements.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "High-accuracy measurement of vehicle dynamics and position.",
+          "mmdNumber": "N/A"
+        },
+        {
+          "name": "Video VBOX Pro 20hz GPS, Data logging",
+          "modelNumber": "N/A",
+          "manufacturer": "RaceLogic Limited. UK.",
+          "description": "A 4-camera video and data logger with higher 20Hz GPS frequency for increased precision.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Capturing video footage synchronized with high-accuracy GPS data for detailed performance and driver behavior analysis.",
+          "mmdNumber": "N/A"
+        }
+      ]
+    },
+    {
+      "categoryName": "Activity & Sleep Monitoring",
+      "instruments": [
+        {
+          "name": "Motion Watch and Actigraphy Device",
+          "modelNumber": "CAT No. 04-111",
+          "manufacturer": "GV Biomedicals",
+          "description": "A device, usually worn on the wrist, used to measure activity and sleep/wake cycles.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Monitoring activity, rest, and sleep patterns in human factors and transportation studies.",
+          "mmdNumber": "N/A"
+        },
+        {
+          "name": "Motion Watch and Motion Wave Software",
+          "modelNumber": "N/A",
+          "manufacturer": "GV Biomedicals",
+          "description": "Software used to analyze data captured by the Motion Watch and Actigraphy Device.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Data analysis for activity, sleep, and behavioral patterns.",
+          "mmdNumber": "N/A"
+        },
+        {
+          "name": "Motion Watch Interface Cable",
+          "modelNumber": "N/A",
+          "manufacturer": "GV Biomedicals",
+          "description": "Cable for connecting the Motion Watch device to a computer for data transfer.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Data transfer and charging accessory.",
+          "mmdNumber": "N/A"
+        }
+      ]
+    },
+    {
+      "categoryName": "Surveying & Measurement Tools",
+      "instruments": [
+        {
+          "name": "Leica Disto D510 Handheld Laser Meter",
+          "modelNumber": "Disto D510 Model, Handheld",
+          "manufacturer": "Indus Industrial, Chennai",
+          "description": "A laser distance meter featuring a digital Pointfinder, 4x zoom, and 360° tilt sensor for precise outdoor measurements up to 200m.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Surveying, measuring angles and horizontal distances (Smart Horizontal Mode), height tracking, and creating ground plans (with app).",
+          "mmdNumber": "12351"
+        },
+        {
+          "name": "Leica TA 360 Adapter",
+          "modelNumber": "TA 360",
+          "manufacturer": "Indus Industrial, Chennai",
+          "description": "Adapter for Leica measuring equipment.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Accessory for surveying equipment.",
+          "mmdNumber": "12352"
+        },
+        {
+          "name": "Leica TRI 100 Tripod",
+          "modelNumber": "TRI 100",
+          "manufacturer": "Indus Industrial, Chennai",
+          "description": "Tripod stand for laser meter/surveying equipment.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Support for surveying equipment.",
+          "mmdNumber": "12353"
+        }
+      ]
+    },
+    {
+      "categoryName": "Imaging & Data Collection",
+      "instruments": [
+        {
+          "name": "Thermal Imager Camera",
+          "modelNumber": "Fluke TiR1, S/N: 30209782",
+          "manufacturer": "V. I. T. R. O. N. I. C. S. (India), Mumbai",
+          "description": "A thermal imaging camera optimized for building diagnostics, capable of capturing visible light and infrared images (IR-Fusion®).",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Building envelope inspection, restoration, remediation, inspection, and non-destructive thermal analysis of structures.",
+          "mmdNumber": "12362"
+        },
+        {
+          "name": "ACTLUMUS with Actlumus Dock",
+          "modelNumber": "A530",
+          "manufacturer": "TIDEN Technologies",
+          "description": "Compact action camera system used for field data collection and video logging.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Traffic video capture and field surveying.",
+          "mmdNumber": "12369"
+        }
+      ]
+    },
+    {
+      "categoryName": "Software & Maintenance",
+      "instruments": [
+        {
+          "name": "Software - Trip Cubs License",
+          "modelNumber": "N/A",
+          "manufacturer": "M/S. Citikbs",
+          "description": "A software license for data modeling, analytics, and governance applications.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Data Modeling, Analytics, and Data-Driven Decision Making.",
+          "mmdNumber": "12350"
+        },
+        {
+          "name": "TransCAD Transportation Software",
+          "modelNumber": "N/A",
+          "manufacturer": "M/S. Caliper Corporation, U.S.A.",
+          "description": "Professional software for transportation planning and modelling.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Transportation Engineering coursework and research.",
+          "mmdNumber": "12355"
+        },
+        {
+          "name": "Micro Tally 18",
+          "modelNumber": "N/A",
+          "manufacturer": "AJS Sales International",
+          "description": "Business management software for accounting and GST compliance.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "Business management, accounting, financial reporting, and tax compliance (GST).",
+          "mmdNumber": "12359"
+        },
+        {
+          "name": "Cordless Drill",
+          "modelNumber": "N/A",
+          "manufacturer": "Suhas Trading",
+          "description": "A portable, hand-held drill powered by a battery.",
+          "safetyInstructions": "Not Specified",
+          "inCharge": "",
+          "application": "General maintenance and light fabrication work.",
+          "mmdNumber": "N/A"
+        }
+      ]
+    }
+  ]
+}
