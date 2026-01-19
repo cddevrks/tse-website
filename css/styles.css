@@ -16,6 +16,12 @@
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  user-select: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +33,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Google Sans', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
     background-color: var(--white);
@@ -841,6 +847,28 @@ img[loading="eager"] {
     color: var(--text-light);
     font-size: 0.95rem;
     line-height: 1.5;
+}
+
+/* Styles for research lists and awards lists in faculty pages */
+.faculty-research ul.research-areas {
+    list-style: disc;
+    margin: 0.4rem 0 0 1.1rem;
+    padding: 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.faculty-research ol {
+    margin: 0.6rem 0 0 1.2rem;
+    padding: 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.faculty-research ol li {
+    margin-bottom: 0.45rem;
 }
 
 /* Image Slideshow */
@@ -1811,8 +1839,8 @@ button:focus,
 input:focus,
 textarea:focus,
 select:focus {
-    outline: 2px solid var(--secondary-blue);
-    outline-offset: 2px;
+    /* outline: 2px solid var(--secondary-blue);
+    outline-offset: 2px; */
 }
 
 /* Improved button hover states */

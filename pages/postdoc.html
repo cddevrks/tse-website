@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Current Students - Transportation Systems Engineering | IIT Bombay
-    </title>
+    <title>Post doc - Transportation Systems Engineering | IIT Bombay</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,7 +22,6 @@
     <link rel="icon" href="/assets/iitb-logo.png" />
   </head>
   <body>
-    <!-- Navigation -->
     <header class="header">
       <nav class="navbar">
         <div class="nav-container">
@@ -52,12 +49,12 @@
               </ul>
             </li>
             <li class="dropdown">
-              <span class="nav-link dropdown-toggle active"
+              <span class="nav-link dropdown-toggle"
                 >Students <i class="fas fa-chevron-down"></i
               ></span>
               <ul class="dropdown-menu">
                 <li><a href="PhD.html">PhD</a></li>
-                <li><a href="Mtech.html" class="active">M.Tech</a></li>
+                <li><a href="Mtech.html">M.Tech</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -84,29 +81,58 @@
       </nav>
     </header>
 
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <div class="section-header fade-in" style="margin-top: 3rem">
-          <h2 class="section-title">M.Tech Students</h2>
+          <h2 class="section-title">Postdoctoral Researchers</h2>
           <p class="section-subtitle">
-            Current M.Tech students in Transportation Systems Engineering
+            Postdoctoral researchers working within the Transportation Systems
+            Engineering group.
           </p>
         </div>
 
-        <div class="table-container fade-in">
-          <table class="modern-table">
-            <thead>
-              <tr>
-                <th>Sr. No.</th>
-                <th>Name</th>
-                <th>Batch</th>
-                <th>Specialization</th>
-              </tr>
-            </thead>
-            <tbody id="mtech-students-tbody">
-              <!-- M.Tech student data will be loaded from Mtech.json -->
-            </tbody>
-          </table>
+        <div class="faculty-grid vertical-list fade-in">
+          <p style="color: var(--text-light)">
+            Information about postdoctoral researchers will be added here
+            shortly.
+          </p>
+        </div>
+
+        <div
+          class="fade-in"
+          style="
+            margin-top: 3rem;
+            background: var(--light-blue);
+            padding: 2rem;
+            border-radius: 1rem;
+            border-left: 5px solid var(--primary-blue);
+          "
+        >
+          <ul style="padding-left: 1.5rem; margin-bottom: 0">
+            <li style="margin-bottom: 0.5rem">
+              <strong>
+                <p
+                  style="
+                    margin-top: 1.25rem;
+                    font-size: 0.95rem;
+                    text-align: center;
+                  "
+                >
+                  If any prospective candidates would like to apply for faculty
+                  positions,
+                  <a
+                    href="https://www.iitb.ac.in/career/apply/postdoc"
+                    target="_blank"
+                    style="
+                      color: var(--primary-blue);
+                      text-decoration: underline;
+                    "
+                    >visit here.</a
+                  >
+                </p>
+              </strong>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -117,23 +143,8 @@
           <div class="footer-section">
             <h3>Transportation Systems Engineering</h3>
             <p>
-              Department of Civil Engineering<br />
-              Indian Institute of Technology Bombay<br />
-              Powai, Mumbai - 400076, India
-            </p>
-            <p>
-              <span
-                style="display: inline-flex; align-items: center; gap: 0.5em"
-              >
-                <i class="fas fa-phone"></i> <span>+91-9999999999</span>
-              </span>
-              <br />
-              <span
-                style="display: inline-flex; align-items: center; gap: 0.5em"
-              >
-                <i class="fas fa-envelope"></i>
-                <span>tse@civil.iitb.ac.in</span>
-              </span>
+              Department of Civil Engineering<br />Indian Institute of
+              Technology Bombay<br />Powai, Mumbai - 400076, India
             </p>
           </div>
           <div class="footer-links-container">
@@ -146,35 +157,11 @@
                 <li><a href="events.html">Events</a></li>
               </ul>
             </div>
-            <div class="footer-section">
-              <h3>Useful Links</h3>
-              <ul>
-                <li>
-                  <a href="https://www.iitb.ac.in" target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> IIT Bombay</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.civil.iitb.ac.in" target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> Civil Engineering
-                    Dept.</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://acad.iitb.ac.in/academics/calendar-and-timetable"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> Academic
-                    Calendar</a
-                  >
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="footer-bottom">
           <p>
-            &copy; 2025 Transportation Systems Engineering, IIT Bombay. All
+            &copy; 2026 Transportation Systems Engineering, IIT Bombay. All
             rights reserved.
           </p>
         </div>
@@ -182,26 +169,5 @@
     </footer>
 
     <script src="../js/script.js"></script>
-    <script>
-      // Load M.Tech students from JSON
-      fetch("../data/Mtech.json")
-        .then((response) => response.json())
-        .then((students) => {
-          const tbody = document.getElementById("mtech-students-tbody");
-          students.forEach((student, index) => {
-            const row = document.createElement("tr");
-            row.innerHTML = `
-                        <td>${index + 1}</td>
-                        <td>${student.name}</td>
-                        <td>${student.batch}</td>
-                        <td>${student.specialization}</td>
-                    `;
-            tbody.appendChild(row);
-          });
-        })
-        .catch((error) =>
-          console.error("Error loading M.Tech students:", error)
-        );
-    </script>
   </body>
 </html>

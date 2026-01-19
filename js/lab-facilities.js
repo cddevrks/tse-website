@@ -93,10 +93,6 @@ async function loadLabInstruments(labName) {
         container.innerHTML =
           '<div style="text-align: center; padding: 3rem;"><p style="font-size: 1.2rem; color: var(--text-light);">Simulator Lab data coming soon...</p></div>';
         return;
-      case "highway":
-        container.innerHTML =
-          '<div style="text-align: center; padding: 3rem;"><p style="font-size: 1.2rem; color: var(--text-light);">Highway Lab data coming soon...</p></div>';
-        return;
       default:
         container.innerHTML =
           '<div style="text-align: center; padding: 3rem;"><p style="font-size: 1.2rem; color: var(--text-light);">Please select a lab</p></div>';
