@@ -53,7 +53,7 @@ function loadTemplate() {
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-bottom">&copy; 2025 Transportation Systems Engineering, IIT Bombay.</div>
+      <div class="footer-bottom">&copy; 2026 Transportation Systems Engineering, IIT Bombay.</div>
     </div>
   </footer>
   <script src="script.js"></script>
