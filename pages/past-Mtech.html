@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="icon" href="/assets/iitb-logo.png" />
+    <link rel="icon" href="../assets/iitb-logo.png" />
   </head>
   <body>
     <!-- Navigation -->
@@ -330,15 +330,14 @@
                         ${alumni.year}
                     </td>
                 </tr>
-            `
+            `,
           )
           .join("");
       }
 
       function updateCount(showing, total) {
-        document.getElementById(
-          "alumniCount"
-        ).textContent = `Showing ${showing} of ${total} alumni`;
+        document.getElementById("alumniCount").textContent =
+          `Showing ${showing} of ${total} alumni`;
       }
 
       // Search functionality
