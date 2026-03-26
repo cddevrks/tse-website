@@ -96,13 +96,14 @@ function generate() {
       outPath = path.join(folder, 'index.html');
     }
     // Build the article body to inject into the template
+    const articleImage = resolveArticleImage(it.image);
     const articleHtml = `
       <article class="news-article">
         <div class="news-date">${new Date(it.date).toLocaleDateString(undefined, { year:'numeric', month:'long', day:'numeric' })}</div>
         <h1>${escapeHtml(it.title)}</h1>
-        ${it.image ? `<div class="featured-media"><img src="${escapeAttr(it.image)}" alt="${escapeHtml(it.title)}"></div>` : ''}
+        ${articleImage ? `<div class="featured-media"><img src="${escapeAttr(articleImage)}" alt="${escapeHtml(it.title)}"></div>` : ''}
         <div class="article-content">${it.content || ''}</div>
-        <p><a href="news.html">Back to news</a></p>
+        <p><a href="../../pages/news.html">Back to news</a></p>
       </article>
     `;
 
@@ -112,6 +113,13 @@ function generate() {
     fs.writeFileSync(outPath, html, 'utf8');
     console.log('Wrote', outPath);
   });
+}
+
+function resolveArticleImage(image){
+  if(!image) return '';
+  if(/^https?:\/\//i.test(image)) return image;
+  if(image.startsWith('assets/')) return `../../${image}`;
+  return image;
 }
 
 function escapeHtml(s){
