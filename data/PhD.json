@@ -1,21 +1,9 @@
 [
   {
-    "name": "Monik Gupta",
-    "rollNumber": "193040012",
-    "supervisor": "Prof. N. R. Velaga",
-    "coSupervisor": ""
-  },
-  {
     "name": "Ashritha K",
     "rollNumber": "194046010",
     "supervisor": "Prof Gopal R Patil",
     "coSupervisor": "Prof. Buddhiraju Krishna Mohan"
-  },
-  {
-    "name": "Abhijna",
-    "rollNumber": "204040011",
-    "supervisor": "Prof. K. V. Krishna Rao",
-    "coSupervisor": "Prof. P. Vedagiri"
   },
   {
     "name": "Purvang Mukeshbhai Chaudhari",
@@ -28,12 +16,6 @@
     "rollNumber": "214040001",
     "supervisor": "Prof Gopal R Patil",
     "coSupervisor": "Dr Rakhi Manohar Mepparambath (Institute of High Performance Computing, Agency for Science Technology and Research, Singapore)"
-  },
-  {
-    "name": "Aditya Saxena",
-    "rollNumber": "214420002",
-    "supervisor": "Prof. K.V. Krishna Rao",
-    "coSupervisor": "Prof. Virendra Sethi"
   },
   {
     "name": "Kirtesh Ajay Gadiya",

@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Call on page load
-  document.addEventListener("DOMContentLoaded", setActiveNavLink);
+  setActiveNavLink();
 
   // Hero Carousel
   let heroSlideIndex = 0;
@@ -406,46 +406,6 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-
-  // Back to top button
-  const backToTop = document.createElement("button");
-  backToTop.innerHTML = '<i class="fas fa-arrow-up"></i>';
-  backToTop.className = "back-to-top";
-  backToTop.style.cssText = `
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 50%;
-    background: var(--primary-blue);
-    color: white;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    z-index: 1000;
-`;
-
-  document.body.appendChild(backToTop);
-
-  window.addEventListener("scroll", () => {
-    if (window.pageYOffset > 300) {
-      backToTop.style.opacity = "1";
-      backToTop.style.visibility = "visible";
-    } else {
-      backToTop.style.opacity = "0";
-      backToTop.style.visibility = "hidden";
-    }
-  });
-
-  backToTop.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  });
 
   // Print functionality
   function printPage() {
