@@ -319,7 +319,7 @@
             <h3>Phone</h3>
             <p>
               <strong>Department Office:</strong> +91-22-2576-7301<br />
-              <strong>Head of Department:</strong> +91-22-2576-7349<br />
+              <strong>Head of Department:</strong> +91-22-2576-7001<br />
               <strong>Fax:</strong> +91-22-2576-7302
             </p>
           </div>
@@ -358,7 +358,11 @@
           <!-- Contact Form Column -->
           <div class="section-column column-contact-form">
             <h3>Send Us a Message</h3>
-            <form id="contactForm">
+            <form
+              id="contactForm"
+              data-formspree-disabled="true"
+              data-google-form-action="https://docs.google.com/forms/d/e/1FAIpQLSe1wPEWYPSYl_mZoRq9zIL4aW7xApP6ByWCx-EJMwpjtgw2fw/formResponse"
+            >
               <div class="form-grid">
                 <div class="form-group">
                   <label for="firstName">First Name *</label>
@@ -422,31 +426,53 @@
                 ></textarea>
               </div>
 
-              <div
-                style="
-                  display: flex;
-                  align-items: flex-start;
-                  gap: 0.5rem;
-                  margin-bottom: 1rem;
-                "
-              >
+              <div class="contact-consent">
                 <input
                   type="checkbox"
                   id="consent"
                   name="consent"
                   required
-                  style="margin-top: 0.25rem"
+                  class="contact-checkbox"
                 />
                 <label for="consent" class="consent-label"
                   >I consent to data processing for this inquiry.</label
                 >
               </div>
 
-              <button type="submit" class="btn btn-primary" style="width: 100%">
+              <button type="submit" class="btn btn-primary contact-submit-btn">
                 <i class="fas fa-paper-plane"></i>
                 Send Message
               </button>
             </form>
+
+            <div
+              id="contactSuccessToast"
+              class="contact-toast"
+              aria-hidden="true"
+              role="status"
+              aria-live="polite"
+            >
+              <div class="contact-toast-panel">
+                <button
+                  type="button"
+                  class="contact-toast-close"
+                  aria-label="Close confirmation"
+                  data-toast-close
+                >
+                  <i class="fas fa-times"></i>
+                </button>
+                <div class="contact-toast-icon">
+                  <i class="fas fa-check"></i>
+                </div>
+                <div class="contact-toast-content">
+                  <h4 data-contact-toast-title>Message queued successfully</h4>
+                  <p data-contact-toast-message>
+                    Thank you for reaching out. Your message has been received
+                    on the page and the form is ready for the next submission.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <!-- Key Contacts Column -->
@@ -464,7 +490,24 @@
                         ><i class="fas fa-envelope"></i>
                         tvm@civil.iitb.ac.in</span
                       >
-                      <span><i class="fas fa-phone"></i> +91-22-2576-7349</span>
+                      <span><i class="fas fa-phone"></i> +91-22-2576-7001</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faculty-card">
+                <div class="faculty-header">
+                  <div class="faculty-avatar">NV</div>
+                  <div class="faculty-info">
+                    <h3>Prof. Nagendra Rao Velaga</h3>
+                    <div class="faculty-position">Professor</div>
+                    <div class="faculty-contact">
+                      <span
+                        ><i class="fas fa-envelope"></i>
+                        n.r.velaga@iitb.ac.in</span
+                      >
+                      <span><i class="fas fa-phone"></i> +91-22-2576-7341</span>
                     </div>
                   </div>
                 </div>

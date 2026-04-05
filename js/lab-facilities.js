@@ -22,8 +22,7 @@ function createInstrumentCard(instrument) {
   const imageHtml = imageUrl
     ? `<img src="${imageUrl}" alt="${instrument.name}" class="instrument-image" loading="lazy">`
     : `<div class="instrument-image-placeholder">
-             <i class="fas fa-flask" style="font-size: 3rem; margin-bottom: 0.5rem;"></i>
-             <p>Image Not Available</p>
+             <img src="../assets/iitb-logo.svg" alt="IIT Bombay Logo" class="instrument-placeholder-logo" loading="lazy">
            </div>`;
 
   // Determine if this is a pavement lab instrument (has studentAssigned) or simulator lab (has userSafetyInstructions/mmdNumber)

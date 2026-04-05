@@ -317,21 +317,120 @@ document.addEventListener("DOMContentLoaded", function () {
   // Contact Form
   const contactForm = document.getElementById("contactForm");
   if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
+    const successToast = document.getElementById("contactSuccessToast");
+    const toastCloseElements = successToast
+      ? successToast.querySelectorAll("[data-toast-close]")
+      : [];
+    const toastPanel = successToast
+      ? successToast.querySelector(".contact-toast-panel")
+      : null;
+    const toastTitle = successToast
+      ? successToast.querySelector("[data-contact-toast-title]")
+      : null;
+    const toastMessage = successToast
+      ? successToast.querySelector("[data-contact-toast-message]")
+      : null;
+    let toastTimeoutId = null;
+
+    const googleFormAction =
+      contactForm.dataset.googleFormAction ||
+      "https://docs.google.com/forms/d/e/1FAIpQLSe1wPEWYPSYl_mZoRq9zIL4aW7xApP6ByWCx-EJMwpjtgw2fw/formResponse";
+
+    const googleFieldMap = {
+      firstName: "entry.891183264",
+      lastName: "entry.2136294540",
+      email: "entry.94376958",
+      phone: "entry.732609209",
+      organization: "entry.1878203488",
+      inquiryType: "entry.2009420415",
+      subject: "entry.553259800",
+      message: "entry.246627545",
+    };
+
+    function openContactToast(type, title, message) {
+      if (!successToast) return;
+      if (toastTimeoutId) window.clearTimeout(toastTimeoutId);
+      if (toastPanel) {
+        toastPanel.classList.toggle("is-error", type === "error");
+      }
+      if (toastTitle) {
+        toastTitle.textContent = title;
+      }
+      if (toastMessage) {
+        toastMessage.textContent = message;
+      }
+      successToast.classList.add("is-open");
+      successToast.setAttribute("aria-hidden", "false");
+      toastTimeoutId = window.setTimeout(closeContactToast, 4500);
+    }
+
+    function closeContactToast() {
+      if (!successToast) return;
+      successToast.classList.remove("is-open");
+      successToast.setAttribute("aria-hidden", "true");
+      if (toastTimeoutId) {
+        window.clearTimeout(toastTimeoutId);
+        toastTimeoutId = null;
+      }
+    }
+
+    toastCloseElements.forEach((element) => {
+      element.addEventListener("click", closeContactToast);
+    });
+
+    contactForm.addEventListener("submit", async function (e) {
       e.preventDefault();
 
       const button = this.querySelector('button[type="submit"]');
       const originalText = button.innerHTML;
+      const inquiryTypeSelect = this.querySelector("#inquiryType");
 
       button.innerHTML = '<div class="loading"></div> Sending...';
       button.disabled = true;
 
-      setTimeout(() => {
-        alert("Thank you for your message! We will get back to you soon.");
+      try {
+        const formPayload = new URLSearchParams();
+        formPayload.append(googleFieldMap.firstName, this.firstName.value.trim());
+        formPayload.append(googleFieldMap.lastName, this.lastName.value.trim());
+        formPayload.append(googleFieldMap.email, this.email.value.trim());
+        formPayload.append(googleFieldMap.phone, this.phone.value.trim());
+        formPayload.append(googleFieldMap.organization, this.organization.value.trim());
+        formPayload.append(
+          googleFieldMap.inquiryType,
+          inquiryTypeSelect && inquiryTypeSelect.selectedIndex >= 0
+            ? inquiryTypeSelect.options[inquiryTypeSelect.selectedIndex].text.trim()
+            : "",
+        );
+        formPayload.append(googleFieldMap.subject, this.subject.value.trim());
+        formPayload.append(googleFieldMap.message, this.message.value.trim());
+
+        await fetch(googleFormAction, {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+          },
+          body: formPayload.toString(),
+        });
+
         this.reset();
         button.innerHTML = originalText;
         button.disabled = false;
-      }, 2000);
+        openContactToast(
+          "success",
+          "Message sent successfully",
+          "Your message has been submitted through the TSE contact form.",
+        );
+      } catch (error) {
+        console.error("Contact form submission failed:", error);
+        button.innerHTML = originalText;
+        button.disabled = false;
+        openContactToast(
+          "error",
+          "Submission failed",
+          "We could not submit your message right now. Please try again in a moment.",
+        );
+      }
     });
   }
 
