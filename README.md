@@ -2,234 +2,127 @@
 
 Official website for the Transportation Systems Engineering group at IIT Bombay's Department of Civil Engineering.
 
-## ⚠️ CRITICAL: Must Use HTTP Server!
+## Important
 
-**🚨 The website MUST be run through an HTTP server - opening HTML files directly will NOT work!**
+Run the website through an HTTP server. Opening HTML files directly with `file://` may block dynamic JSON and Google Sheets requests in the browser.
 
-**Why?** The website loads student data from JSON files. Browsers block local file access (CORS policy) when using `file://` protocol.
-
-**✅ Correct:** `http://localhost:8000` (through server)  
-**❌ Wrong:** `file:///path/to/index.html` (direct file open)
-
-**If student data is not loading, make sure you're using the HTTP server!**
-
-## 🚀 Quick Start
-
-### Method 1: Using the Start Server Script (Recommended)
+## Quick Start
 
 ```bash
-# Navigate to the website directory
-cd "/Users/uday/Music/tse_website 2/tse_website"
-
-# Run the start server script
-./start-server.sh
+python -m http.server 8000
 ```
 
-This will:
-- Start a local web server on port 8000
-- Automatically open the website in your browser
-- Display useful links and information
+Then open `http://localhost:8000`.
 
-### Method 2: Manual Server Start
+## Website Structure
 
-```bash
-# Navigate to the website directory
-cd "/Users/uday/Music/tse_website 2/tse_website"
-
-# Start Python's built-in HTTP server
-python3 -m http.server 8000
-
-# Open in browser
-open http://localhost:8000
-```
-
-### Method 3: Using VS Code Live Server
-
-1. Install the "Live Server" extension in VS Code
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
-
-## 📁 Website Structure (Updated - Organized)
-
-```
+```text
 tse_website/
-├── index.html              # Homepage (root level)
-├── package.json            # Project configuration
-├── start-server.sh         # Server startup script
-│
-├── css/                    # Stylesheets
+├── index.html
+├── css/
 │   └── styles.css
-│
-├── js/                     # JavaScript files
+├── js/
 │   ├── script.js
-│   └── news-loader.js      # Smart path resolution
-│
-├── data/                   # JSON data files
-│   ├── PhD.json            # Current PhD students
-│   ├── Mtech.json          # Current M.Tech students
-│   ├── mtech_alumni.json   # M.Tech alumni (420+ records)
-│   ├── past-PhD.json       # PhD alumni
-│   ├── dualdegree.json     # Dual degree alumni (6 records)
-│   └── news-data.json      # News articles
-│
-├── pages/                  # All HTML pages
+│   ├── lab-facilities.js
+│   ├── news-service.js
+│   └── news-loader.js
+├── data/
+│   ├── PhD.json
+│   ├── Mtech.json
+│   ├── mtech_alumni.json
+│   ├── past-PhD.json
+│   ├── dualdegree.json
+│   ├── pavement-lab.json
+│   ├── simulator-lab.json
+│   ├── news-sheet-upload.csv
+│   └── news-sheet-schema.example.csv
+├── pages/
 │   ├── faculty-current.html
 │   ├── faculty-past.html
+│   ├── staff-members.html
+│   ├── postdoc.html
 │   ├── PhD.html
 │   ├── Mtech.html
 │   ├── past-PhD.html
-│   ├── past-Mtech.html     # 420+ alumni records
-│   ├── past-DualDegree.html # 6 alumni records
-│   ├── news.html
+│   ├── past-Mtech.html
+│   ├── past-DualDegree.html
+│   ├── events.html
 │   ├── research.html
 │   ├── contact.html
-│   └── events.html
-│
-├── assets/                 # Images and media
-├── news/                   # Individual news articles
-├── scripts/                # Build scripts
-│   ├── generate-news.js
-│   ├── import-news-link.js
-│   └── watch-news.js
-└── templates/              # HTML templates
-    └── news-page.html
-```
-├── assets/                 # Images and media
-└── news/                   # News articles
+│   ├── news.html
+│   └── news-article.html
+└── assets/
 ```
 
-## ⚠️ Important Notes
+## News System
 
-### Why You Need a Local Server
+News content is loaded from Google Sheets only.
 
-The website uses JSON files to dynamically load alumni data. Modern browsers block loading local JSON files when opening HTML files directly (file:// protocol) due to CORS security policy.
+Configured sheet URL:
+`https://docs.google.com/spreadsheets/d/1XG1kqRNLNqKGf0gtIe9BbyRNZzPIqVc2aH35fnkG5pM/export?format=csv&gid=0`
 
-**❌ This won't work:**
-- Double-clicking `index.html` to open in browser
-- Opening files directly with `file:///path/to/index.html`
+Only the first worksheet tab (`gid=0`) is used.
 
-**✅ This will work:**
-- Using a local web server (http://localhost:8000)
-- Deploying to a web hosting service
+### News Sheet Columns
 
-### Features
+Use these columns when adding or editing a news row:
 
-#### Home Page (index.html)
-- 4-slide hero carousel with navigation
-- Timeline of TSE history
-- Quick statistics (10 faculty, 50+ students, 100+ projects, 37 years)
-- News, Events, and Spotlights sections
-- LinkedIn articles integration
-- Photo gallery with lightbox
-- Comprehensive About Us section
+- `id`
+- `slug`
+- `title`
+- `date`
+- `category`
+- `excerpt`
+- `image`
+- `image_alt`
+- `content_html`
+- `content_text`
+- `source_url`
+- `source_label`
+- `featured`
+- `published`
+- `tags`
 
-#### M.Tech Alumni (past-Mtech.html)
-- 420+ alumni records from 1994-2025
-- Interactive searchable table
-- Filter by decade (1990s, 2000s, 2010s, 2020s)
-- Sortable columns (Name, Year)
-- CSV export functionality
-- Real-time statistics
+### Adding a News Article
 
-#### Dual Degree Alumni (past-DualDegree.html)
-- 6 graduates from 2018-2025
-- Card-based layout
-- Search functionality
-- Year-specific filtering
-- Program information box
-- CSV export
+Add one row to the first Google Sheet tab:
 
-## 🔧 Making Changes
+- Fill `id`, `slug`, `title`, `date`, `category`, `excerpt`, `image`, and `image_alt`.
+- Add full article content in `content_html`, or use `content_text`.
+- Set `featured` to `TRUE` for the highlighted article, otherwise `FALSE`.
+- Set `published` to `TRUE` to show the article on the site.
 
-### Adding New Alumni
+The loader will show a blue loading state while fetching news and a blue error message if the sheet request fails.
 
-1. **M.Tech Alumni:** Edit `mtech_alumni.json`
-2. **Dual Degree Alumni:** Edit `dualdegree.json`
+## Data Files
 
-JSON format:
-```json
-{
-  "name": "Student Name",
-  "dissertation_title": "Thesis title",
-  "supervisor": "Prof. Name",
-  "year": 2025
-}
-```
+- `data/PhD.json`: current PhD students
+- `data/Mtech.json`: current M.Tech students
+- `data/mtech_alumni.json`: M.Tech alumni
+- `data/past-PhD.json`: PhD alumni
+- `data/dualdegree.json`: dual degree alumni
+- `data/pavement-lab.json`: pavement lab instruments
+- `data/simulator-lab.json`: simulator lab instruments
 
-### Updating Images
+## Updating Images
 
-- Place images in the `assets/` folder
-- Update image paths in HTML files
-- Supported formats: JPG, PNG, GIF
+Place images in `assets/` and reference them with paths like `assets/example.jpg`, or use a full external image URL where supported.
 
-### Modifying Styles
+## Styles
 
-- Edit `styles.css` for global styling
-- CSS variables are defined in `:root` selector
-- Responsive breakpoints: 768px (tablet), 520px (mobile)
+Global styles are in `css/styles.css`. Theme variables are defined in the `:root` selector.
 
-## 🎨 Design Features
+## Troubleshooting
 
-- **Responsive Design:** Works on desktop, tablet, and mobile
-- **Dark Blue Theme:** Professional color scheme
-- **Font Awesome Icons:** 6.4.0 for UI elements
-- **Smooth Animations:** Fade-in effects and transitions
-- **Accessibility:** ARIA labels and keyboard navigation
-- **Back-to-Top Button:** Appears after scrolling 300px
+- If alumni/lab data does not load, make sure the site is running on a local or hosted HTTP server.
+- If news does not load, confirm the Google Sheet is published/shared so CSV export works and that the first tab contains the expected headers.
+- Check the browser console for fetch or CORS errors.
 
-## 📊 Data Files
+## Contact
 
-### mtech_alumni.json
-- 420+ records
-- Years: 1994-2025
-- Fields: name, dissertation_title, supervisor, year
-
-### dualdegree.json
-- 6 records
-- Years: 2018-2025
-- Fields: name, dissertation_title, supervisor, year
-
-## 🌐 Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## 📝 To-Do / Future Enhancements
-
-- [ ] Add PhD alumni data
-- [ ] Implement dark mode toggle
-- [ ] Add more photo galleries
-- [ ] Create alumni profile pages
-- [ ] Add research publications section
-- [ ] Integrate with backend API
-
-## 🐛 Troubleshooting
-
-### Alumni data not loading?
-- Make sure you're using a local server (not file://)
-- Check browser console for errors (F12)
-- Verify JSON files are in the correct location
-
-### Images not showing?
-- Check image paths are correct
-- Ensure images exist in assets/ folder
-- Verify image file extensions match HTML references
-
-### Server port already in use?
-- Kill existing process: `lsof -ti:8000 | xargs kill -9`
-- Or use a different port: `python3 -m http.server 8001`
-
-## 📞 Contact
-
-Transportation Systems Engineering
-Department of Civil Engineering
-Indian Institute of Technology Bombay
-Powai, Mumbai - 400076, India
+Transportation Systems Engineering  
+Department of Civil Engineering  
+Indian Institute of Technology Bombay  
+Powai, Mumbai - 400076, India  
 
 Email: tse@civil.iitb.ac.in
-
----
-
-© 2025 Transportation Systems Engineering, IIT Bombay. All rights reserved.

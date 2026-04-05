@@ -19,15 +19,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="icon" href="../assets/iitb-logo.png" />
+    <link rel="icon" href="../assets/iitb-logo.svg" />
   </head>
-  <body class="dense">
+  <body
+    class="dense"
+    data-news-sheet-url="https://docs.google.com/spreadsheets/d/1XG1kqRNLNqKGf0gtIe9BbyRNZzPIqVc2aH35fnkG5pM/export?format=csv&gid=0"
+  >
     <header class="header">
       <nav class="navbar">
         <div class="nav-container">
           <a href="../index.html" class="logo">
             <img
-              src="../assets/iitb-logo.png"
+              src="../assets/iitb-logo.svg"
               alt="IIT Bombay Logo"
               class="iitb-logo"
               style="height: 56px; vertical-align: middle; margin-right: 10px"
@@ -70,7 +73,6 @@
             <li><a href="events.html" class="nav-link">Events</a></li>
             <li><a href="research.html" class="nav-link">Research</a></li>
             <li><a href="contact.html" class="nav-link">Contact</a></li>
-            <li><a href="news.html" class="nav-link active">News</a></li>
           </ul>
 
           <div class="hamburger">
@@ -80,61 +82,26 @@
           </div>
         </div>
       </nav>
-
-      <section class="page-header" role="banner">
+      
+      <section class="section">
         <div class="container">
-          <h1>News</h1>
-          <p>
-            Stay updated with the latest announcements, events, and achievements
+          <div class="section-header page-intro-header fade-in" style="margin-top: 3rem">
+            <h2 class="section-title">News</h2>
+            <p class="section-subtitle">
+              Stay updated with the latest announcements, events, and achievements
             from TSE
-          </p>
+            </p>
+          </div>
         </div>
       </section>
     </header>
 
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <div class="container breadcrumb-nav">
-        <a href="../index.html">Home</a>
-        <span aria-hidden="true">/</span>
-        <span>News</span>
-      </div>
-    </nav>
-
-    <main class="section">
+    <main class="section section-no-top-padding">
       <div class="container">
         <div class="news-page">
           <div class="news-layout">
             <div class="news-main">
-              <!-- Spotlight article -->
-              <article class="news-featured" role="article">
-                <div class="featured-media">
-                  <img
-                    src="../assets/solomon.jpeg"
-                    alt="Spotlight News"
-                    loading="lazy"
-                  />
-                  <div class="featured-overlay">
-                    <span class="featured-label">Spotlight</span>
-                  </div>
-                </div>
-                <div class="featured-body">
-                  <div class="news-date">October 10, 2025</div>
-                  <h2>
-                    IIT Bombay Congratulates Prof. Solomon Debbarma on Young
-                    Faculty Fellowship
-                  </h2>
-                  <p class="lead">
-                    Prof. Solomon Debbarma from the Department of Civil
-                    Engineering receives the prestigious Young Faculty
-                    Fellowship for his work in sustainable road infrastructure.
-                  </p>
-                  <a
-                    class="read-more"
-                    href="https://www.linkedin.com/posts/dean-acr-iit-bombay_iitb-youngfacultyfellowship-yff-ugcPost-7379518243272728576-bMVF"
-                    ><i class="fas fa-chevron-right"></i> Read Full Story</a
-                  >
-                </div>
-              </article>
+              <article class="news-featured" role="article" data-news-featured></article>
 
               <!-- More News heading -->
               <div class="news-grid-header">
@@ -153,7 +120,7 @@
                 </div>
               </div>
 
-              <div class="more-news-grid" role="list"></div>
+              <div class="more-news-grid" data-news-grid role="list"></div>
             </div>
 
             <aside class="news-sidebar" role="complementary">
@@ -164,48 +131,12 @@
 
               <div class="sidebar-box">
                 <h4>Categories</h4>
-                <ul class="sidebar-links">
-                  <li>
-                    <a href="#" data-category="all" class="active">All</a>
-                  </li>
-                  <li>
-                    <a href="#" data-category="announcements">Announcements</a>
-                  </li>
-                  <li><a href="#" data-category="events">Events</a></li>
-                  <li>
-                    <a href="#" data-category="student-news">Student News</a>
-                  </li>
-                  <li><a href="#" data-category="research">Research</a></li>
-                </ul>
+                <ul class="sidebar-links" data-news-categories></ul>
               </div>
 
-              <div class="sidebar-box social-feed">
-                <h4>Social Media Feed</h4>
-                <ul class="social-posts">
-                  <li>
-                    <i class="fab fa-linkedin"></i>
-                    <div>
-                      <div class="social-date">October 10, 2025</div>
-                      <a
-                        href="https://www.linkedin.com/posts/dean-acr-iit-bombay_iitb-youngfacultyfellowship-yff-ugcPost-7379518243272728576-bMVF"
-                        target="_blank"
-                        >Congratulating Prof. Solomon Debbarma on his Young
-                        Faculty Fellowship!</a
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <i class="fab fa-linkedin"></i>
-                    <div>
-                      <div class="social-date">October 7, 2025</div>
-                      <a
-                        href="https://www.linkedin.com/posts/avijitmaji_ctrg2025-transportationresearch-workshops-activity-7378826767991656449-RNJa"
-                        target="_blank"
-                        >Join us at CTRG-2025 for cutting-edge workshops!</a
-                      >
-                    </div>
-                  </li>
-                </ul>
+              <div class="sidebar-box">
+                <h4>Source Links</h4>
+                <ul class="sidebar-links" data-news-sources></ul>
               </div>
             </aside>
           </div>
@@ -284,6 +215,7 @@
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="../js/news-service.js"></script>
     <script src="../js/news-loader.js"></script>
   </body>
 </html>

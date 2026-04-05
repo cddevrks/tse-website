@@ -15,15 +15,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="assets/iitb-logo.png" />
+    <link rel="icon" href="assets/iitb-logo.svg" />
   </head>
-  <body class="dense">
+  <body
+    class="dense"
+    data-news-sheet-url="https://docs.google.com/spreadsheets/d/1XG1kqRNLNqKGf0gtIe9BbyRNZzPIqVc2aH35fnkG5pM/export?format=csv&gid=0"
+  >
     <header class="header">
       <nav class="navbar">
         <div class="nav-container">
           <a href="index.html" class="logo">
             <img
-              src="assets/iitb-logo.png"
+              src="assets/iitb-logo.svg"
               alt="IIT Bombay Logo"
               class="iitb-logo"
               style="height: 56px; vertical-align: middle; margin-right: 10px"
@@ -137,60 +140,14 @@
           <!-- News Column -->
           <div class="col col-news">
             <h3 class="col-title">News</h3>
-
-            <div class="news-list" role="list">
-              <article class="news-list-item" role="listitem">
-                <div class="news-list-content">
-                  <div class="news-list-date">Dec 2024</div>
-                  <h4>TPMDC 2024 Conference</h4>
-                  <p>
-                    The 15th Transportation Planning and Management Development
-                    Conference successfully held at IIT Bombay with
-                    international participation.
-                  </p>
-                </div>
-              </article>
-
-              <article class="news-list-item" role="listitem">
-                <div class="news-list-content">
-                  <div class="news-list-date">Sep 2024</div>
-                  <h4>CSIR-CRRI Partnership</h4>
-                  <p>
-                    New collaboration agreement signed to elevate research in
-                    transportation engineering and smart mobility solutions.
-                  </p>
-                </div>
-              </article>
-
-              <article class="news-list-item" role="listitem">
-                <div class="news-list-content">
-                  <div class="news-list-date">Aug 2024</div>
-                  <h4>Student Achievements</h4>
-                  <p>
-                    TSE students win multiple awards at national transportation
-                    engineering competitions and research presentations.
-                  </p>
-                </div>
-              </article>
-
-              <article class="news-list-item" role="listitem">
-                <div class="news-list-content">
-                  <div class="news-list-date">2024</div>
-                  <h4>Prof. Solomon Debbarma - Alumni Spotlight</h4>
-                  <p>
-                    Celebrating the achievements of Prof. Solomon Debbarma,
-                    former faculty member and IIT Bombay alumnus, now
-                    contributing to transportation engineering at a leading
-                    institute.
-                  </p>
-                </div>
-              </article>
-
+            <div class="news-home-shell">
+              <div data-news-home-featured></div>
+              <div class="news-list" data-news-home-list role="list"></div>
               <a
                 href="pages/news.html"
-                class="read-more"
+                class="read-more news-home-more"
                 aria-label="Read more news"
-                >Read More &gt;&gt;</a
+                >Explore all news &gt;&gt;</a
               >
             </div>
 
@@ -892,5 +849,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/news-service.js"></script>
+    <script src="js/news-loader.js"></script>
   </body>
 </html>
