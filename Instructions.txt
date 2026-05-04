@@ -1,0 +1,26 @@
+Google Sheet Link:
+https://docs.google.com/spreadsheets/d/1XG1kqRNLNqKGf0gtIe9BbyRNZzPIqVc2aH35fnkG5pM/edit?usp=sharing
+
+To add a new news article, just add one new row in the Google Sheet. In that,
+
+Main required fields:
+
+id: unique article id, like bridge-workshop-2026
+slug: keep it same as id
+title: article headline
+date: publish date in YYYY-MM-DD
+category: keep it one of 4 options (events, research, announcements, student-news)
+excerpt: short summary shown on cards
+image: google drive URL with view access
+image_alt: some description of the image
+content_html: full article body in HTML, like <p>Paragraph 1</p><p>Paragraph 2</p>
+featured: TRUE if this should appear as the main highlighted story
+published: TRUE to show it on the website, FALSE to keep it hidden
+
+
+Optional fields:
+
+content_text: plain text body if you don’t want to write HTML
+source_url: external link, like a LinkedIn post
+source_label: button/link label for that external source
+tags: comma-separated tags
