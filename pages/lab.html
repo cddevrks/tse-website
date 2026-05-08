@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Research - Transportation Systems Engineering | IIT Bombay</title>
+    <title>
+      Lab Facilities - Transportation Systems Engineering | IIT Bombay
+    </title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -69,10 +71,8 @@
               </ul>
             </li>
             <li><a href="events.html" class="nav-link">Events</a></li>
-            <li>
-              <a href="research.html" class="nav-link active">Research</a>
-            </li>
-            <li><a href="lab.html" class="nav-link">Lab</a></li>
+            <li><a href="research.html" class="nav-link">Research</a></li>
+            <li><a href="lab.html" class="nav-link active">Lab</a></li>
             <li><a href="contact.html" class="nav-link">Contact</a></li>
           </ul>
 
@@ -88,17 +88,88 @@
     <section class="section">
       <div class="container">
         <div class="section-header fade-in" style="margin-top: 3rem">
-          <h2 class="section-title">Research Excellence</h2>
+          <h2 class="section-title">Lab Facilities</h2>
           <p class="section-subtitle">
-            Leading transportation research with global impact
+            State-of-the-art instruments supporting world-class research
           </p>
         </div>
 
-        <div class="faculty-grid vertical-list fade-in">
-          <p style="color: var(--text-light)">
-            Information about researches will be added here
-            shortly.
+        <!-- Instrument Availability Info -->
+        <div
+          class="instrument-availability-info fade-in"
+          style="
+            margin-top: 3rem;
+            background: var(--light-blue);
+            padding: 2rem;
+            border-radius: 1rem;
+            border-left: 5px solid var(--primary-blue);
+          "
+        >
+          <h3
+            style="
+              color: var(--primary-blue);
+              margin-bottom: 1rem;
+              font-size: 1.2rem;
+            "
+          >
+            <i class="fas fa-info-circle" style="margin-right: 0.5rem"></i
+            >Instrument Availability Management
+          </h3>
+          <p style="color: var(--text-dark); margin-bottom: 1rem">
+            To check or manage the availability of instruments, visit the
+            Availability Management System:
           </p>
+          <ul style="padding-left: 1.5rem; margin-bottom: 0">
+            <li style="margin-bottom: 0.5rem">
+              <strong>For Users:</strong>
+              <a
+                href="http://10.104.2.28/AMS/user_login.php"
+                target="_blank"
+                style="
+                  color: var(--secondary-blue);
+                  text-decoration: none;
+                  font-weight: 600;
+                "
+              >
+                http://10.104.2.28/AMS/user_login.php
+                <i
+                  class="fas fa-external-link-alt"
+                  style="margin-left: 0.3rem"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <strong>For Administrators:</strong>
+              <a
+                href="http://10.104.2.28/AMS/login.php"
+                target="_blank"
+                style="
+                  color: var(--secondary-blue);
+                  text-decoration: none;
+                  font-weight: 600;
+                "
+              >
+                http://10.104.2.28/AMS/login.php
+                <i
+                  class="fas fa-external-link-alt"
+                  style="margin-left: 0.3rem"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Lab Tabs -->
+        <div class="lab-tabs fade-in">
+          <button class="lab-tab active" data-lab="pavement">
+            Pavement Lab
+          </button>
+          <button class="lab-tab" data-lab="simulator">Simulator Lab</button>
+        </div>
+
+        <!-- Instruments Container -->
+        <div id="instruments-container" class="instruments-container">
+          <!-- Instruments will be loaded here dynamically -->
         </div>
       </div>
     </section>
@@ -134,7 +205,7 @@
               <ul>
                 <li><a href="faculty-current.html">People</a></li>
                 <li><a href="PhD.html">Students</a></li>
-                <li><a href="lab.html">Lab</a></li>
+                <li><a href="research.html">Research</a></li>
                 <li><a href="events.html">Events</a></li>
               </ul>
             </div>
@@ -174,5 +245,6 @@
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="../js/lab-facilities.js"></script>
   </body>
 </html>

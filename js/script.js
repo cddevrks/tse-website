@@ -160,6 +160,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const heroNextBtn = document.querySelector(".carousel-next");
 
   if (heroSlides.length > 0 && heroCarousel) {
+    let heroAutoAdvanceTimer = null;
+
     function updateCarouselPosition() {
       const translateX = -heroSlideIndex * 100;
       heroCarousel.style.transform = `translateX(${translateX}%)`;
@@ -186,11 +188,28 @@ document.addEventListener("DOMContentLoaded", function () {
       updateCarouselPosition();
     }
 
+    function startHeroAutoAdvance() {
+      if (heroAutoAdvanceTimer) return;
+
+      heroAutoAdvanceTimer = setInterval(nextHeroSlide, 4000);
+    }
+
+    function stopHeroAutoAdvance() {
+      if (!heroAutoAdvanceTimer) return;
+
+      clearInterval(heroAutoAdvanceTimer);
+      heroAutoAdvanceTimer = null;
+    }
+
     // Initialize carousel
     updateCarouselPosition();
 
     // Auto-advance slides
-    setInterval(nextHeroSlide, 4000);
+    startHeroAutoAdvance();
+
+    // Pause on hover and resume when the cursor leaves
+    heroCarousel.addEventListener("mouseenter", stopHeroAutoAdvance);
+    heroCarousel.addEventListener("mouseleave", startHeroAutoAdvance);
 
     // Navigation button event listeners
     if (heroNextBtn) {
@@ -390,15 +409,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
       try {
         const formPayload = new URLSearchParams();
-        formPayload.append(googleFieldMap.firstName, this.firstName.value.trim());
+        formPayload.append(
+          googleFieldMap.firstName,
+          this.firstName.value.trim(),
+        );
         formPayload.append(googleFieldMap.lastName, this.lastName.value.trim());
         formPayload.append(googleFieldMap.email, this.email.value.trim());
         formPayload.append(googleFieldMap.phone, this.phone.value.trim());
-        formPayload.append(googleFieldMap.organization, this.organization.value.trim());
+        formPayload.append(
+          googleFieldMap.organization,
+          this.organization.value.trim(),
+        );
         formPayload.append(
           googleFieldMap.inquiryType,
           inquiryTypeSelect && inquiryTypeSelect.selectedIndex >= 0
-            ? inquiryTypeSelect.options[inquiryTypeSelect.selectedIndex].text.trim()
+            ? inquiryTypeSelect.options[
+                inquiryTypeSelect.selectedIndex
+              ].text.trim()
             : "",
         );
         formPayload.append(googleFieldMap.subject, this.subject.value.trim());
